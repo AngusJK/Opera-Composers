@@ -3,4 +3,7 @@ h1 {
   color: brown;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+  border-style: solid;
+  border-color: brown;
+  border-radius: 8px;
 }
