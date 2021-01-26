@@ -1,4 +1,4 @@
-h1 {
+.headline {
   background-color: bisque;
   color: brown;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -6,4 +6,10 @@ h1 {
   border-style: solid;
   border-color: brown;
   border-radius: 8px;
+}
+
+body {
+  background-color: burlywood;
+  border-style: solid;
+  border-color: crimson;
 }
