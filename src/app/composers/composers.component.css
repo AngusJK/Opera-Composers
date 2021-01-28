@@ -4,3 +4,6 @@ body {
   border-style: solid;
   border-color: crimson;
 }
+.button {
+  margin-bottom: 10em;
+}
