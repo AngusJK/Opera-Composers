@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Opera } from 'src/app/models/Opera';
+import { OPERA_DATA } from '../OPERA_DATA';
 
 @Component({
   selector: 'app-operas',
@@ -7,36 +7,19 @@ import { Opera } from 'src/app/models/Opera';
   styleUrls: ['./operas.component.css']
 })
 export class OperasComponent implements OnInit {
-  operas!: Opera[];
+  operas;
 /**
  * operas! is a property
  */
-  constructor() { }
-
-  ngOnInit() {
-    this.operas = [
-      {
-        id: 1,
-        name: "Don Giovanni",
-        composer: "Mozart",
-        language: "Italian",
-        year: 1789
-      },
-      {
-        id: 2,
-        name: "Götterdämmerung",
-        composer: "Wagner",
-        language: "German",
-        year: 1876
-      },
-      {
-        id: 3,
-        name: "La bohème",
-        composer: "Puccini",
-        language: "Italian",
-        year: 1896
-      }
-    ]
+  constructor() {
+    this.operas = OPERA_DATA;
   }
 
+  addOpera() {
+    console.log("submit button clicked");
+  }
+
+  ngOnInit () {
+
+  }
 }
