@@ -1,5 +1,11 @@
-<div>
+<div class="opera-title-list">
   <h3>Operas by Title</h3>
   <app-opera-item *ngFor="let opera of operas" [opera]="opera"></app-opera-item>
-  <button class="addOpera">Add opera</button>
+  <form>
+    <label for="operaname"></label><br>
+    <input type="text" id="operaname" name="operaname" value="new opera name">
+    <input type="submit" value="submit" (click)="addOpera()">
+  </form>
+
+
 </div>
