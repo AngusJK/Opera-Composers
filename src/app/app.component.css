@@ -3,8 +3,7 @@
   color: brown;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  border: solid brown 4px;
-
+  border-bottom: solid brown 4px;
 }
 
 ul {
@@ -13,6 +12,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  border-bottom: solid brown 4px;
 }
 
 li {
