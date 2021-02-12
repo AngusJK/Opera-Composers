@@ -19,6 +19,10 @@ export class OperasComponent implements OnInit {
     console.log("submit button clicked");
   }
 
+  showComposer() {
+    console.log(this.operas);
+  }
+
   ngOnInit () {
 
   }
