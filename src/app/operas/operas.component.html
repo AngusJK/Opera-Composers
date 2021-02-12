@@ -1,6 +1,9 @@
 <div class="opera-title-list">
-  <h3>Operas by Title</h3>
-  <app-opera-item *ngFor="let opera of operas" [opera]="opera"></app-opera-item>
+
+  <div class="opera-list">
+    <h3>Operas by Title</h3>
+    <app-opera-item *ngFor="let opera of operas" [opera]="opera" (click)="showComposer()"></app-opera-item>
+  </div>
   <form>
     <label for="operaname"></label><br>
     <input type="text" id="operaname" name="operaname" placeholder="new opera name">
