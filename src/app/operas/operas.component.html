@@ -2,7 +2,17 @@
 
   <div class="opera-list">
     <h3>Operas by Title</h3>
-    <app-opera-item *ngFor="let opera of operas" [opera]="opera" (click)="showComposer()"></app-opera-item>
+
+    <!--<app-opera-item *ngFor="let opera of operas"
+    [opera]="opera"
+    (click)="showComposer()">
+    </app-opera-item>
+  -->
+    <div >
+    <ul *ngFor="let opera of operas">
+      <li><a href="operas/{{ opera.id }}">{{ opera.name }}</a></li>
+    </ul>
+    </div>
   </div>
   <form>
     <label for="operaname"></label><br>
