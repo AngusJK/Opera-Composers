@@ -10,7 +10,7 @@
   -->
     <div >
     <ul *ngFor="let opera of operas">
-      <li><a href="operas/{{ opera.id }}">{{ opera.name }}</a></li>
+      <li><a [routerLink]="['/operas', opera.id]">{{ opera.name }}</a></li>
     </ul>
     </div>
   </div>
