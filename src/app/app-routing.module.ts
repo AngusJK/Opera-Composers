@@ -5,6 +5,7 @@ import { OperaItemComponent } from './opera-item/opera-item.component';
 import { OperasComponent } from './operas/operas.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'operas', pathMatch: 'full' },
   { path: 'operas', component: OperasComponent },
   { path: 'composers', component: ComposersComponent },
   { path: 'operas/:id', component: OperaItemComponent }
