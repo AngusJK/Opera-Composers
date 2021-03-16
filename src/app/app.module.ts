@@ -7,6 +7,7 @@ import { ComposersComponent } from './composers/composers.component';
 import { OperasComponent } from './operas/operas.component';
 import { OperaItemComponent } from './opera-item/opera-item.component';
 import { NewOperaFormComponent } from './new-opera-form/new-opera-form.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NewOperaFormComponent } from './new-opera-form/new-opera-form.component
     ComposersComponent,
     OperasComponent,
     OperaItemComponent,
-    NewOperaFormComponent
+    NewOperaFormComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
