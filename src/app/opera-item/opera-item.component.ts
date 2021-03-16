@@ -19,11 +19,12 @@ export class OperaItemComponent implements OnInit {
   ngOnInit() {
     this.route.paramMap
     .subscribe(params => {
-      this.operaItemService.getOpera(params.get('id'))
-      .subscribe(opera => {
-        this.opera = opera;
+      console.log(params);
+      //this.operaItemService.getOpera(params.get('id'))
+      //.subscribe(opera => {
+        //this.opera = opera;
       })
-    })
+    //})
   }
 
 }
