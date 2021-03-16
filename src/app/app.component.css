@@ -1,16 +1,9 @@
-@keyframes billboard {
-  from {background-color: rgb(219, 217, 213);}
-  to {background-color: yellow;}
-}
-
 .headline {
   color: brown;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   border-bottom: solid brown 4px;
   background-color: rgb(219, 217, 213);
-  animation-name: billboard;
-  animation-duration: 7s;
 }
 
 ul {
