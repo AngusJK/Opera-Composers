@@ -1,14 +1,19 @@
-<div class="headline">
-  <h1>{{ title | uppercase }}</h1>
-  <h3>Learn about operas and by whom they were composed</h3>
+<div class="container container-fluid fixed-top">
+  <div class="container container-fluid">
+    <h1>{{ title | uppercase }}</h1>
+    <h3>Learn about operas and by whom they were composed</h3>
+  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar nav">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="/composers">Composers</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="/operas">Operas</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="/login">Login</a></li>
+    </ul>
+  </nav>
 </div>
-<ul>
-  <li><a href="#">Home</a></li>
-  <li><a routerLink="/composers">Composers</a></li>
-  <li><a routerLink="/operas">Operas</a></li>
-  <li><a href="#">Contact</a></li>
-  <li><a routerLink="/login">Login</a></li>
-</ul>
+<div class="container-fluid" style="margin-top: 170px;">
 <router-outlet></router-outlet>
-
+</div>
 
