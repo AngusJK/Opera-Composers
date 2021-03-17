@@ -9,14 +9,14 @@
     </app-opera-item>
   -->
     <div >
-    <ul *ngFor="let opera of operas">
-      <li><a [routerLink]="['/operas', opera.id]">{{ opera.name }}</a></li>
+    <ul  class="list-unstyled">
+      <li *ngFor="let opera of operas" class="bg-dark text-light p-1 rounded mb-2"
+        [routerLink]="['/operas', opera.id]">{{ opera.name }}
+      </li>
     </ul>
     </div>
   </div>
-  <form>
-    <label for="operaname"></label><br>
-    <input type="text" id="operaname" name="operaname" placeholder="new opera name">
-    <input type="submit" value="submit" (click)="addOpera()">
-  </form>
+  <button class="btn btn-primary" name="newOpera" routerLink="/new">
+    Add New Opera
+  </button>
 </div>
