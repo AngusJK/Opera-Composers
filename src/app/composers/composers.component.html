@@ -1,12 +1,6 @@
 <div>
   <h5>Click on a composer's name to see what he accomplished, opera-wise</h5>
-  <ul>
-    <li>Richard Wagner</li>
-    <li>Giuseppe Verdi</li>
-    <li>Giacomo Puccini</li>
-    <li>Richard Strauss</li>
-    <li>Wolfgang Amadeus Mozart</li>
-    <li>Benjamin Britten</li>
-    <li>Sergei Prokofiev</li>
+  <ul class="list-unstyled">
+    <li *ngFor="let composer of composers">{{composer.name}}</li>
   </ul>
 </div>
