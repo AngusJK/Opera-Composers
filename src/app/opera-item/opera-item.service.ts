@@ -16,8 +16,8 @@ export class OperaItemService {
   getOpera(id:number) : Observable<Opera> {
     return this.getOperaList()
     .pipe(
-      map(actors => {
-        return actors.filter(opera => opera.id === id)[0]
+      map(operas => {
+        return operas.filter(opera => opera.id === id)[0]
       })
     )
   }
