@@ -1,6 +1,8 @@
 <div>
   <h5>Click on a composer's name to see what he accomplished, opera-wise</h5>
   <ul class="list-unstyled">
-    <li *ngFor="let composer of composers">{{composer.name}}</li>
+    <li *ngFor="let composer of composers"
+    [routerLink]="['/composers', composer.id]"
+    >{{composer.firstName}} {{composer.lastName}}</li>
   </ul>
 </div>
