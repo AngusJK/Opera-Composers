@@ -5,15 +5,17 @@ import { LoginComponent } from './login/login.component';
 import { OperaItemComponent } from './opera-item/opera-item.component';
 import { OperasComponent } from './operas/operas.component';
 import { NewOperaFormComponent } from './new-opera-form/new-opera-form.component';
+import { ComposerDetailComponent } from './composer-detail/composer-detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'operas', pathMatch: 'full' },
-  { path: 'operas', component: OperasComponent },
-  { path: 'composers', component: ComposersComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'operas/:id', component: OperaItemComponent },
   { path: 'new', component: NewOperaFormComponent },
-
+  { path: 'operas', component: OperasComponent },
+  { path: 'operas/:id', component: OperaItemComponent },
+  { path: 'composers', component: ComposersComponent },
+  { path: 'composers/:id', component: ComposerDetailComponent },
+  { path: "**", redirectTo: 'operas' }
 ];
 
 @NgModule({
