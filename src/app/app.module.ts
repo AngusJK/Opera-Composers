@@ -8,6 +8,7 @@ import { OperasComponent } from './operas/operas.component';
 import { OperaItemComponent } from './opera-item/opera-item.component';
 import { NewOperaFormComponent } from './new-opera-form/new-opera-form.component';
 import { LoginComponent } from './login/login.component';
+import { ComposerDetailComponent } from './composer-detail/composer-detail.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { LoginComponent } from './login/login.component';
     OperaItemComponent,
     NewOperaFormComponent,
     LoginComponent,
+    ComposerDetailComponent,
   ],
   imports: [
     BrowserModule,
