@@ -3,6 +3,8 @@ import { Component, OnInit, Input } from '@angular/core';
 // import { OPERA_DATA } from '../OPERA_DATA';
 import { ActivatedRoute } from '@angular/router';
 import { OperaItemService } from './opera-item.service';
+import { Observable } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-opera-item',
