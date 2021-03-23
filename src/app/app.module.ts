@@ -10,6 +10,7 @@ import { OperaItemComponent } from './opera-item/opera-item.component';
 import { NewOperaFormComponent } from './new-opera-form/new-opera-form.component';
 import { LoginComponent } from './login/login.component';
 import { ComposerDetailComponent } from './composer-detail/composer-detail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ComposerDetailComponent } from './composer-detail/composer-detail.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
