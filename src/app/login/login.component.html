@@ -1,13 +1,15 @@
 <h4>Login</h4>
-<!--
-<form (ngSubmit)="login(ngForm)" #loginForm="ngForm">
-  <div class="form-group">
-    <label for="email">Email</label>
-    <input required type="email" class="form-control" id="email" name="email">
-  </div>
-  <div class="form-group">
-    <label for="password">Password</label>
-    <input required type="password" class="form-control" id="password" name="password">
-  </div>
-  <button type="submit" class="btn btn-primary">Login</button>
-</form> -->
+
+<form [formGroup]="loginForm" (ngSubmit)="showUserInfo()">
+  <label>Name:
+    <input type="text" formControlName="name">
+  </label><br>
+  <label>Email:
+    <input type="text" formControlName="email">
+  </label><br>
+  <label>Password:
+    <input type="password" formControlName="password">
+  </label><br>
+  <button type="submit">Submit</button>
+</form>
+
