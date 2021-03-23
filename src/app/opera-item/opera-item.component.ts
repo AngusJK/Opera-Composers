@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 // import { Opera } from 'src/app/models/Opera';
 // import { OPERA_DATA } from '../OPERA_DATA';
 import { ActivatedRoute } from '@angular/router';
-import { OperaItemService } from './opera-item.service';
+import { OperaItemService } from '../opera-item.service';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 
@@ -16,17 +16,20 @@ export class OperaItemComponent implements OnInit {
   //@Input() opera!: Opera;
   opera: any;
 
-  constructor(private route:ActivatedRoute, private operaItemService:OperaItemService) { }
+  constructor(
+    private route:ActivatedRoute,
+    private operaItemService:OperaItemService
+  ) { }
 
-  ngOnInit() {
-    this.route.paramMap
-    .subscribe(params => {
-      console.log(params);
-      //this.operaItemService.getOpera(params.get('id'))
-      //.subscribe(opera => {
-        //this.opera = opera;
-      })
-    //})
+  ngOnInit(): void {
+    this.getOpera();
   }
 
+  getOpera(): void {
+    const id = +this.route.snapshot.paramMap.get('id');
+      this.operaItemService.getOpera(id)
+      .subscribe(opera => {
+        this.opera = opera;
+      })
+  }
 }
