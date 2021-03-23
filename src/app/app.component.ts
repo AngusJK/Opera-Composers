@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Opera Composers Resource';
+
+  constructor(private http: HttpClient, private titleService: Title) {}
+
+  public setTitle(newTitle: "Operas") {
+    this.titleService.setTitle(newTitle);
+  }
 
 }
