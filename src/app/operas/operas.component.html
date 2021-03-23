@@ -10,7 +10,7 @@
   -->
     <div >
     <ul  class="list-unstyled">
-      <li *ngFor="let opera of operas" class="bg-dark text-light p-1 rounded mb-2"
+      <li *ngFor="let opera of operas"
         [routerLink]="['/operas', opera.id]">{{ opera.name }}
       </li>
     </ul>
