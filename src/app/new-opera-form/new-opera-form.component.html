@@ -1,1 +1,19 @@
-<p>new-opera-form works!</p>
+<h3>Submit a new opera</h3>
+<form [formGroup]="newOperaForm" (ngSubmit)="showForm()">
+  <label>Title:
+    <input type="text" formControlName="title">
+  </label><br>
+  <label>Composer:
+    <input type="text" formControlName="composer">
+  </label><br>
+  <label>Year:
+    <input type="text" formControlName="year">
+  </label><br>
+  <label>Language:
+    <input type="text" formControlName="language">
+  </label><br>
+  <button type="submit">Submit</button>
+</form>
+<button name="goBack" routerLink="/operas">
+  Back
+</button>
