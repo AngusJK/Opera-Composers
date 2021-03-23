@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ComposerDetailService } from '../composer-detail.service';
 
 @Component({
   selector: 'app-composer-detail',
@@ -8,61 +9,25 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ComposerDetailComponent implements OnInit {
 
-  composers =  [
-    { id: 1,
-      firstName: "Wolfgang Amadeus",
-      lastName: "Mozart",
-      birthYear: 1756,
-      deathYear: 1791,
-      country: "Austria" },
-    { id: 2,
-      firstName: "Richard",
-      lastName: "Wagner",
-      birthYear: 1813,
-      deathYear: 1886,
-      country: "Germany" },
-    { id: 3,
-      firstName: "Giuseppe",
-      lastName: "Verdi",
-      birthYear: 1813,
-      deathYear: 1901,
-      country: "Italy" },
-    { id: 4,
-      firstName: "Giacomo",
-      lastName: "Puccini",
-      birthYear: 1856,
-      deathYear: 1924,
-      country: "Italy" },
-    { id: 5, firstName: "Benjamin",
-      lastName: "Britten",
-      birthYear: 1913,
-      deathYear: 1976,
-      country: "Great Britain" },
-    { id: 6,
-      firstName: "Richard",
-      lastName: "Strauss",
-      birthYear: 1864,
-      deathYear: 1949,
-      country: "Germany" },
-    { id: 7,
-      firstName: "Sergei",
-      lastName: "Prokofiev",
-      birthYear: 1891,
-      deathYear: 1953,
-      country: "Russia" }
-  ];
+  composer: any;
 
-
-  constructor(private route: ActivatedRoute) {
-  }
+  constructor(
+    private route: ActivatedRoute,
+    private composerDetailService: ComposerDetailService
+    ) {}
 
   ngOnInit(): void {
-    this.route.paramMap
-    .subscribe(params => {
-      console.log(params);
-    })
+    this.getComposer();
   }
 
+  getComposer(): void {
+    const id: number = +this.route.snapshot.paramMap.get('id');
+    this.composerDetailService.getComposer(id)
+    .subscribe(composer => {
+      this.composer = composer;
+    })
+
+  }
 
 
 }
