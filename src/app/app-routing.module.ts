@@ -8,7 +8,7 @@ import { NewOperaFormComponent } from './new-opera-form/new-opera-form.component
 import { ComposerDetailComponent } from './composer-detail/composer-detail.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'operas', pathMatch: 'full' },
+  { path: '', redirectTo: '/operas', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'new', component: NewOperaFormComponent },
   { path: 'operas', component: OperasComponent },
