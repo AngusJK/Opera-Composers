@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-new-opera-form',
@@ -7,9 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewOperaFormComponent implements OnInit {
 
-  constructor() { }
+  newOperaForm!: FormGroup;
+
+  constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
+    this.initializeForm();
   }
 
+  initializeForm() {
+    this.newOperaForm = this.fb.group({
+      title: '',
+      composer: '',
+      year: '',
+      language: ''
+    })
+  }
+
+  showForm() {
+    console.log(this.newOperaForm.value);
+  }
 }
