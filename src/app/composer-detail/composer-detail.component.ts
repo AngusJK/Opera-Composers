@@ -10,6 +10,7 @@ import { ComposerDetailService } from '../composer-detail.service';
 export class ComposerDetailComponent implements OnInit {
 
   composer: any;
+  currentComposerOpera!: "Il Trovatore";
 
   constructor(
     private route: ActivatedRoute,
@@ -21,7 +22,7 @@ export class ComposerDetailComponent implements OnInit {
   }
 
   getComposer(): void {
-    const id: number = +this.route.snapshot.paramMap.get('id');
+    const id: number = +this.route.snapshot.paramMap.get('id')!;
     this.composerDetailService.getComposer(id)
     .subscribe(composer => {
       this.composer = composer;
