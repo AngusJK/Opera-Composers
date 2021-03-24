@@ -26,7 +26,7 @@ export class OperaItemComponent implements OnInit {
   }
 
   getOpera(): void {
-    const id = +this.route.snapshot.paramMap.get('id');
+    const id = +this.route.snapshot.paramMap.get('id')!;
       this.operaItemService.getOpera(id)
       .subscribe(opera => {
         this.opera = opera;
