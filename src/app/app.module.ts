@@ -11,6 +11,7 @@ import { NewOperaFormComponent } from './new-opera-form/new-opera-form.component
 import { LoginComponent } from './login/login.component';
 import { ComposerDetailComponent } from './composer-detail/composer-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
     NewOperaFormComponent,
     LoginComponent,
     ComposerDetailComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
