@@ -11,7 +11,6 @@ export class ComposerDetailComponent implements OnInit {
 
   composer: any;
 
-
   constructor(
     private route: ActivatedRoute,
     private composerDetailService: ComposerDetailService
@@ -19,7 +18,7 @@ export class ComposerDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.getComposer();
-    this.getCurrentComposerOperas();
+    this.addOperas();
   }
 
   getComposer(): void {
@@ -31,10 +30,11 @@ export class ComposerDetailComponent implements OnInit {
 
   }
 
-  getCurrentComposerOperas() {
-    this.composer.operas.push("Otello");
-    this.composer.operas.push("Aida");
+  addOperas() {
+    this.composer.operas = this.composerDetailService.getCurrentComposerOperas(this.composer.lastName);
+    console.log(this.composer.operas);
   }
+
 
 
 }
