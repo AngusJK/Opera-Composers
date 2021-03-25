@@ -33,7 +33,7 @@ export class ComposerDetailService {
   }
 
   getCurrentComposerOperas(composerName: string) {
-    let filteredOperas = this.operas.filter(opera => opera.composer === composerName)
+    let filteredOperas = this.operas.filter((opera: any) => opera.composer === composerName)
     return filteredOperas;
   }
 
