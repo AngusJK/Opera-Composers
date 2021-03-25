@@ -6,13 +6,19 @@ export const COMPOSER_DATA = [
       lastName: "Mozart",
       birthYear: 1756,
       deathYear: 1791,
-      birthPlace: "Austria" },
+      birthPlace: "Salzburg, Austria",
+      image: "/assets/images/mozart.jpg",
+      operas: []
+    },
     { id: 2,
       firstName: "Richard",
       lastName: "Wagner",
       birthYear: 1813,
       deathYear: 1886,
-      birthPlace: "Germany" },
+      birthPlace: "Leipzig, Germany",
+      image: "/assets/images/wagner.jpg",
+      operas: []
+    },
     { id: 3,
       firstName: "Giuseppe",
       lastName: "Verdi",
@@ -27,25 +33,34 @@ export const COMPOSER_DATA = [
       lastName: "Puccini",
       birthYear: 1856,
       deathYear: 1924,
-      birthPlace: "Italy" },
+      birthPlace: "Lucca, Italy",
+      image: "/assets/images/puccini.jpg",
+      operas: []
+    },
     { id: 5, firstName: "Benjamin",
       lastName: "Britten",
       birthYear: 1913,
       deathYear: 1976,
-      birthPlace: "Great Britain" },
+      birthPlace: "Lowestoft, Great Britain",
+      image: "/assets/images/britten.jpg",
+      operas: []
+    },
     { id: 6,
       firstName: "Richard",
       lastName: "Strauss",
       birthYear: 1864,
       deathYear: 1949,
-      birthPlace: "Germany" },
+      birthPlace: "München, Germany",
+      image: "/assets/images/strauss.jpg",
+      operas: []
+    },
     { id: 7,
       firstName: "Sergei",
       lastName: "Prokofiev",
       birthYear: 1891,
       deathYear: 1953,
-      birthPlace: "Russia" }
-
-
-
+      birthPlace: "Sontsivka, Ukraine",
+      image: "/assets/images/prokofiev.jpg",
+      operas: []
+    }
 ]
