@@ -3,7 +3,7 @@
 <h6>Birthplace: {{ composer.birthPlace }}</h6>
 <h6>Operas: </h6>
 <ul class="list-unstyled" *ngFor="let opera of composer.operas">
-  <li>{{ opera }}</li>
+  <li [routerLink]="['/operas', opera.id]">{{ opera.name }}</li>
 </ul>
-<div><img src="{{ composer.image }}" width="200" height="300" alt="verdi photo"></div>
+<div><img src="{{ composer.image }}" width="200" alt="verdi photo"></div>
 <button name="goBack" routerLink="/composers" class="btn btn-info">Back</button>
