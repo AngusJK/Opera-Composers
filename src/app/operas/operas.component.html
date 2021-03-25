@@ -9,7 +9,7 @@
     </app-opera-item>
   -->
     <div >
-    <ul  class="list-unstyled">
+    <ul class="list-unstyled">
       <li *ngFor="let opera of operas" style="cursor: pointer;"
         [routerLink]="['/operas', opera.id]">{{ opera.name }}
       </li>
