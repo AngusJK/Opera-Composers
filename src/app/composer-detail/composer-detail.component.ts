@@ -10,7 +10,7 @@ import { ComposerDetailService } from '../composer-detail.service';
 export class ComposerDetailComponent implements OnInit {
 
   composer: any;
-  currentComposerOpera!: "Il Trovatore";
+
 
   constructor(
     private route: ActivatedRoute,
@@ -19,6 +19,7 @@ export class ComposerDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.getComposer();
+    this.getCurrentComposerOperas();
   }
 
   getComposer(): void {
@@ -28,6 +29,11 @@ export class ComposerDetailComponent implements OnInit {
       this.composer = composer;
     })
 
+  }
+
+  getCurrentComposerOperas() {
+    this.composer.operas.push("Otello");
+    this.composer.operas.push("Aida");
   }
 
 
