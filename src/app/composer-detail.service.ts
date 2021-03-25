@@ -4,6 +4,7 @@ import { of, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Composer } from './models/Composer';
 import { COMPOSER_DATA } from './COMPOSER_DATA';
+import { OPERA_DATA } from './OPERA_DATA';
 
 @Injectable({
   providedIn: 'root'
@@ -11,12 +12,12 @@ import { COMPOSER_DATA } from './COMPOSER_DATA';
 export class ComposerDetailService {
 
   composers: any;
+  operas: any;
 
   constructor(private http: HttpClient) {
     this.composers = COMPOSER_DATA;
+    this.operas = OPERA_DATA;
   }
-
-  //composer: any;
 
   getComposer(id:number) : Observable<Composer> {
     return this.getComposerList()
@@ -29,6 +30,11 @@ export class ComposerDetailService {
 
   getComposerList() : Observable<Composer[]> {
     return of( this.composers );
+  }
+
+  getCurrentComposerOperas(composerName: string) {
+    let filteredOperas = this.operas.filter(opera => opera.composer === composerName)
+    return filteredOperas;
   }
 
 }
