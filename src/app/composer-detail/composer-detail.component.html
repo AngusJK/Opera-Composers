@@ -1,3 +1,4 @@
+<div><img src="{{ composer.image }}" width="200" alt="verdi photo"></div>
 <h4>{{ composer.firstName }} {{ composer.lastName }}</h4>
 <h6>{{ composer.birthYear }}-{{ composer.deathYear }}</h6>
 <h6>Birthplace: {{ composer.birthPlace }}</h6>
@@ -5,5 +6,4 @@
 <ul class="list-unstyled" *ngFor="let opera of composer.operas">
   <li [routerLink]="['/operas', opera.id]">{{ opera.name }}</li>
 </ul>
-<div><img src="{{ composer.image }}" width="200" alt="verdi photo"></div>
 <button name="goBack" routerLink="/composers" class="btn btn-info">Back</button>
