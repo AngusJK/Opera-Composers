@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { OperaItemService } from '../opera-item.service';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-opera-item',
@@ -18,7 +19,8 @@ export class OperaItemComponent implements OnInit {
 
   constructor(
     private route:ActivatedRoute,
-    private operaItemService:OperaItemService
+    private operaItemService:OperaItemService,
+    private location:Location
   ) { }
 
   ngOnInit(): void {
@@ -31,5 +33,9 @@ export class OperaItemComponent implements OnInit {
       .subscribe(opera => {
         this.opera = opera;
       })
+  }
+
+  back(): void {
+    this.location.back();
   }
 }
