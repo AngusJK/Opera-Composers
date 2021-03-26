@@ -5,4 +5,5 @@
   <h5>Year of premiere: {{opera.year}}</h5>
   <p>{{opera.summary}}</p>
 </div>
-<button name="goBack" routerLink="/operas" class="btn btn-info">All operas</button>
+<button name="allOperas" routerLink="/operas" class="btn btn-info" >All operas</button>
+<button name="goBack" (click)="back()" class="btn btn-primary">Back</button>
