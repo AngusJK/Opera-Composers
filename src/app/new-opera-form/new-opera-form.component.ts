@@ -11,6 +11,7 @@ export class NewOperaFormComponent implements OnInit {
 
   newOperaForm!: FormGroup;
   composers: string[] = this.composerDetailService.getComposerNames()
+  languages: string[] = ["Czech", "English", "French", "German", "Hungarian", "Italian", "Russian"];
 
   constructor(private fb: FormBuilder, private composerDetailService: ComposerDetailService) { }
 
