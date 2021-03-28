@@ -31,7 +31,8 @@ export class ComposerDetailComponent implements OnInit {
   }
 
   addOperas() {
-    this.composer.operas = this.composerDetailService.getCurrentComposerOperas(this.composer.lastName);
+    let composerFullName = `${this.composer.firstName} ${this.composer.lastName}`;
+    this.composer.operas = this.composerDetailService.getCurrentComposerOperas(composerFullName);
     console.log(this.composer.operas);
   }
 
