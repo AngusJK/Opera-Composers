@@ -3,7 +3,7 @@
   <ul class="list-unstyled">
     <li *ngFor="let composer of composers"
     [routerLink]="['/composers', composer.id]"
-    style="cursor: pointer;"
+    style="cursor: pointer; color: blue;"
     >{{composer.firstName}} {{composer.lastName}}</li>
   </ul>
 </div>
