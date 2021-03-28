@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, FormArray } from '@angular/forms';
+import { FormGroup, FormBuilder } from '@angular/forms';
 import { ComposerDetailService } from '../composer-detail.service';
 
 @Component({
@@ -10,6 +10,7 @@ import { ComposerDetailService } from '../composer-detail.service';
 export class NewOperaFormComponent implements OnInit {
 
   newOperaForm!: FormGroup;
+  composers: string[] = this.composerDetailService.getComposerNames()
 
   constructor(private fb: FormBuilder, private composerDetailService: ComposerDetailService) { }
 
@@ -26,7 +27,13 @@ export class NewOperaFormComponent implements OnInit {
     })
   }
 
+  pickComposer(event: any) {
+    this.newOperaForm.patchValue({
+      composer: event.target.value
+    })
+  }
+
   showForm() {
-    console.log(this.newOperaForm.value);
+    console.log(this.composers);
   }
 }
