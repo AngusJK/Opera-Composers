@@ -1,5 +1,5 @@
 <h3>Submit a new opera</h3>
-<form [formGroup]="newOperaForm" (ngSubmit)="showForm()">
+<form [formGroup]="newOperaForm" (ngSubmit)="submitForm()">
   <label>Title:
     <input type="text" formControlName="title">
   </label><br>
@@ -10,15 +10,13 @@
   <label>Year:
     <input type="text" formControlName="year">
   </label><br>
-
   Language:
   <select formControlName="language" (change)="pickLanguage($event)">
     <option *ngFor="let language of languages" [ngValue]="language">{{ language }}</option>
   </select><br>
-
-
   <button type="submit" class="btn btn-success">Submit</button>
 </form>
 <button name="goBack" class="btn btn-info" routerLink="/operas">
   Back
 </button>
+<p *ngIf="!formSubmitted" style="color:green;">Opera Successfully Added</p>
