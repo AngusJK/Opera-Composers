@@ -10,9 +10,13 @@
   <label>Year:
     <input type="text" formControlName="year">
   </label><br>
-  <label>Language:
-    <input type="text" formControlName="language">
-  </label><br>
+
+  Language:
+  <select formControlName="language" (change)="pickLanguage($event)">
+    <option *ngFor="let language of languages" [ngValue]="language">{{ language }}</option>
+  </select><br>
+
+
   <button type="submit" class="btn btn-success">Submit</button>
 </form>
 <button name="goBack" class="btn btn-info" routerLink="/operas">
