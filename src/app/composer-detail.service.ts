@@ -28,6 +28,14 @@ export class ComposerDetailService {
     )
   }
 
+  getComposerNames() {
+    let composerNames = [];
+    for (let composer of this.composers) {
+      composerNames.push(`${composer.firstName} ${composer.lastName}`)
+    }
+    return composerNames;
+  }
+
   getComposerList() : Observable<Composer[]> {
     return of( this.composers );
   }
