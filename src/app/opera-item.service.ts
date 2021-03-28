@@ -25,7 +25,17 @@ export class OperaItemService {
     )
   }
 
+  getOperas() {
+    return this.operas;
+  }
+
   getOperaList() : Observable<Opera[]> {
     return of( this.operas )
   }
+
+  addNewOpera(newOpera: any) {
+    newOpera.id = this.operas.length+1;
+    this.operas.push(newOpera);
+  }
+
 }
