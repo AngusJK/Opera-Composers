@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { ComposerDetailService } from '../composer-detail.service';
+import { OperaItemService } from '../opera-item.service';
 
 @Component({
   selector: 'app-new-opera-form',
@@ -12,8 +13,13 @@ export class NewOperaFormComponent implements OnInit {
   newOperaForm!: FormGroup;
   composers: string[] = this.composerDetailService.getComposerNames()
   languages: string[] = ["Czech", "English", "French", "German", "Hungarian", "Italian", "Russian"];
+  formSubmitted = false;
 
-  constructor(private fb: FormBuilder, private composerDetailService: ComposerDetailService) { }
+  constructor(
+    private fb: FormBuilder,
+    private composerDetailService: ComposerDetailService,
+    private operaItemService: OperaItemService
+    ) { }
 
   ngOnInit(): void {
     this.initializeForm();
@@ -34,7 +40,24 @@ export class NewOperaFormComponent implements OnInit {
     })
   }
 
-  showForm() {
-    console.log(this.composers);
+  pickLanguage(event: any) {
+    this.newOperaForm.patchValue({
+      language: event.target.value
+    })
   }
+
+  submitForm() {
+    let newValues = this.newOperaForm.value;
+    let newOpera = {
+      name: newValues.title,
+      composer: newValues.composer,
+      year: newValues.year,
+      language: newValues.language
+    }
+    this.operaItemService.addNewOpera(newOpera);
+    this.formSubmitted = true;
+  }
+
+
+
 }
