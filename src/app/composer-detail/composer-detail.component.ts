@@ -13,8 +13,7 @@ export class ComposerDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private composerDetailService: ComposerDetailService
-    ) {}
+    private composerDetailService: ComposerDetailService) {}
 
   ngOnInit(): void {
     this.getComposer();
@@ -27,15 +26,11 @@ export class ComposerDetailComponent implements OnInit {
     .subscribe(composer => {
       this.composer = composer;
     })
-
   }
 
   addOperas() {
     let composerFullName = `${this.composer.firstName} ${this.composer.lastName}`;
     this.composer.operas = this.composerDetailService.getCurrentComposerOperas(composerFullName);
-    console.log(this.composer.operas);
   }
-
-
 
 }
