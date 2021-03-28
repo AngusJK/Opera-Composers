@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder, FormArray } from '@angular/forms';
+import { ComposerDetailService } from '../composer-detail.service';
 
 @Component({
   selector: 'app-new-opera-form',
@@ -10,7 +11,7 @@ export class NewOperaFormComponent implements OnInit {
 
   newOperaForm!: FormGroup;
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder, private composerDetailService: ComposerDetailService) { }
 
   ngOnInit(): void {
     this.initializeForm();
