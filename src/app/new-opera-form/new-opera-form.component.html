@@ -3,9 +3,10 @@
   <label>Title:
     <input type="text" formControlName="title">
   </label><br>
-  <label>Composer:
-    <input type="text" formControlName="composer">
-  </label><br>
+  Composer:
+  <select formControlName="composer" (change)="pickComposer($event)">
+    <option *ngFor="let composer of composers" [ngValue]="composer">{{ composer }}</option>
+  </select><br>
   <label>Year:
     <input type="text" formControlName="year">
   </label><br>
