@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OPERA_DATA } from '../OPERA_DATA';
+import { OperaItemService } from '../opera-item.service';
 
 @Component({
   selector: 'app-operas',
@@ -7,13 +7,10 @@ import { OPERA_DATA } from '../OPERA_DATA';
   styleUrls: ['./operas.component.css']
 })
 export class OperasComponent implements OnInit {
-  operas;
-/**
- * operas! is a property
- */
-  constructor() {
-    this.operas = OPERA_DATA;
-  }
+
+  operas: any;
+
+  constructor(private operaItemService: OperaItemService) {}
 
   addOpera() {
     console.log("submit button clicked");
@@ -24,6 +21,7 @@ export class OperasComponent implements OnInit {
   }
 
   ngOnInit () {
-
+    this.operas = this.operaItemService.getOperas();
   }
+
 }
