@@ -10,10 +10,8 @@ import { Title } from '@angular/platform-browser';
 export class AppComponent {
   title: string = 'Opera Composers Resource';
 
-  constructor(private http: HttpClient, private titleService: Title) {}
-
-  public setTitle(newTitle: "Operas") {
-    this.titleService.setTitle(newTitle);
+  constructor(private http: HttpClient, private titleService: Title) {
+    titleService.setTitle('Opera Composers')
   }
 
 }
