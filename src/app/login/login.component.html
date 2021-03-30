@@ -1,13 +1,6 @@
 <h4>Login</h4>
 
 <form [formGroup]="loginForm" (ngSubmit)="showUserInfo()">
-  <label>Name:
-    <input type="text" formControlName="name" placeholder="Required">
-    <span style="color:red;" *ngIf="(name.touched || name.dirty)
-      && name.invalid && name.errors.required">
-      Name is required.
-    </span>
-  </label><br>
   <label>Email:
     <input type="text" formControlName="email" placeholder="Required">
   </label><br>
@@ -20,5 +13,5 @@
 <h3>Form valid: {{ loginForm.valid }}</h3>
 
 <div>
-  <h5>Don't have a login? Click <a href="#">here</a> to register.</h5>
+  <h5>Don't have a login? Click <a routerLink="/register">here</a> to register.</h5>
 </div>
