@@ -1,1 +1,19 @@
-<p>register works!</p>
+<h4>Register</h4>
+<form [formGroup]="registerForm" (ngSubmit)="showInput()">
+  <label>Name:
+    <input type="text" formControlName="name" placeholder="Required">
+    <span style="color:red;" *ngIf="(name.touched || name.dirty)
+      && name.invalid && name.errors.required">
+      Name is required.
+    </span>
+  </label><br>
+  <label>Email:
+    <input type="text" formControlName="email" placeholder="Required">
+  </label><br>
+  <label>Password:
+    <input type="password" formControlName="password" placeholder="Required">
+  </label><br>
+  <button [disabled]="registerForm.invalid" type="submit" class="btn btn-success">Submit</button>
+</form>
+
+<h3>Form valid: {{ registerForm.valid }}</h3>
