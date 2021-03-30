@@ -3,6 +3,10 @@
 <form [formGroup]="loginForm" (ngSubmit)="showUserInfo()">
   <label>Name:
     <input type="text" formControlName="name" placeholder="Required">
+    <span style="color:red;" *ngIf="(name.touched || name.dirty)
+      && name.invalid && name.errors.required">
+      Name is required.
+    </span>
   </label><br>
   <label>Email:
     <input type="text" formControlName="email" placeholder="Required">
@@ -10,8 +14,10 @@
   <label>Password:
     <input type="password" formControlName="password" placeholder="Required">
   </label><br>
-  <button type="submit" class="btn btn-success">Submit</button>
+  <button [disabled]="loginForm.invalid" type="submit" class="btn btn-success">Submit</button>
 </form>
+
+<h3>Form valid: {{ loginForm.valid }}</h3>
 
 <div>
   <h5>Don't have a login? Click <a href="#">here</a> to register.</h5>
