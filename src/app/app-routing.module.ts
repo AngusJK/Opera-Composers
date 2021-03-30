@@ -7,11 +7,13 @@ import { OperasComponent } from './operas/operas.component';
 import { NewOperaFormComponent } from './new-opera-form/new-opera-form.component';
 import { ComposerDetailComponent } from './composer-detail/composer-detail.component';
 import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/operas', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
   { path: 'new', component: NewOperaFormComponent },
   { path: 'operas', component: OperasComponent },
   { path: 'operas/:id', component: OperaItemComponent },
