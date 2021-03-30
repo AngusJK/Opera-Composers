@@ -10,10 +10,6 @@ export class LoginComponent implements OnInit {
 
   loginForm!: FormGroup;
 
-  get name(): FormControl {
-    return this.loginForm.get('name') as FormControl;
-  }
-
   get email(): FormControl {
     return this.loginForm.get('email') as FormControl;
   }
@@ -32,11 +28,11 @@ export class LoginComponent implements OnInit {
 
   initializeForm(): void {
     this.loginForm = this.fb.group({
-      name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       password: ['', Validators.required]
     })
   }
+
   showUserInfo(){
     console.log(this.loginForm.value);
   }
