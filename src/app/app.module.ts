@@ -12,6 +12,7 @@ import { LoginComponent } from './login/login.component';
 import { ComposerDetailComponent } from './composer-detail/composer-detail.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HomeComponent } from './home/home.component';
     LoginComponent,
     ComposerDetailComponent,
     HomeComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
