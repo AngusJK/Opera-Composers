@@ -2,13 +2,13 @@
 
 <form [formGroup]="loginForm" (ngSubmit)="showUserInfo()">
   <label>Name:
-    <input type="text" formControlName="name">
+    <input type="text" formControlName="name" placeholder="Required">
   </label><br>
   <label>Email:
-    <input type="text" formControlName="email">
+    <input type="text" formControlName="email" placeholder="Required">
   </label><br>
   <label>Password:
-    <input type="password" formControlName="password">
+    <input type="password" formControlName="password" placeholder="Required">
   </label><br>
   <button type="submit" class="btn btn-success">Submit</button>
 </form>
