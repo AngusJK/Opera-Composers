@@ -1,4 +1,4 @@
-.ng-valid {
+.ng-valid:not(form) {
   border-left: 3px solid green;
 }
 
