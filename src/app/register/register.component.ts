@@ -25,11 +25,12 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
     this.initializeForm();
+    console.log("Type of name value: " + typeof(this.registerForm.value.name));
   }
 
   initializeForm(): void {
     this.registerForm = this.fb.group({
-      name: ['', Validators.required],
+      name: ['', [Validators.required, Validators.minLength(4)]],
       email: ['', [Validators.required, Validators.email]],
       password: ['', Validators.required],
     })
