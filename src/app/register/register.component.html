@@ -1,19 +1,35 @@
 <h4>Register</h4>
+
 <form [formGroup]="registerForm" (ngSubmit)="showInput()">
+
   <label>Name:
-    <input type="text" formControlName="name" placeholder="Required">
-    <span style="color:red;" *ngIf="(name.touched || name.dirty)
-      && name.invalid && name.errors.required">
-      Name is required.
-    </span>
+    <input type="text" formControlName="name" placeholder="Required" required>
+<!--
+    <span style="color:red;" *ngIf="name?.invalid && (name?.touched || name?.dirty)">
+
+      <span *ngIf="name?.errors.required">
+        Name is required.
+      </span>
+      <span *ngIf="name?.errors.minlength">
+        Name must be at least 4 characters long.
+      </span>
+
+    </span> -->
+
   </label><br>
+
   <label>Email:
     <input type="text" formControlName="email" placeholder="Required">
   </label><br>
+
   <label>Password:
     <input type="password" formControlName="password" placeholder="Required">
   </label><br>
+
   <button [disabled]="registerForm.invalid" type="submit" class="btn btn-success">Submit</button>
 </form>
 
-<h3>Form valid: {{ registerForm.valid }}</h3>
+<h4>Form valid: {{ registerForm.valid }}</h4>
+<h4>Form status: {{ registerForm.status }}</h4>
+<h4>Form value: {{ registerForm.value | json }}</h4>
+<h4>Name: {{ registerForm.value.name }}</h4>
