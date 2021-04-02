@@ -151,7 +151,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
   {
     id: 16,
     name: "Peter Grimes",
-    composer: "Banjamin Britten",
+    composer: "Benjamin Britten",
     language: "English",
     year: 1939,
     summary: ""
