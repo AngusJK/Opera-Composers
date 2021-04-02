@@ -1,22 +1,25 @@
 <h3>Submit a new opera</h3>
 <form [formGroup]="newOperaForm" (ngSubmit)="submitForm()">
-  <label>Title:
-    <input type="text" formControlName="title">
+  <label>Title:<br>
+    <input type="text" formControlName="title" style="width: 400px;">
   </label><br>
-  Composer:
+  Composer:<br>
   <select formControlName="composer" (change)="pickComposer($event)">
     <option *ngFor="let composer of composers" [ngValue]="composer">{{ composer }}</option>
   </select><br>
-  <label>Year:
+  <label>Year:<br>
     <input type="text" formControlName="year">
   </label><br>
-  Language:
+  Language:<br>
   <select formControlName="language" (change)="pickLanguage($event)">
     <option *ngFor="let language of languages" [ngValue]="language">{{ language }}</option>
   </select><br>
+  <label>Summary:<br>
+    <textarea type="text" formControlName="summary" style="width: 500px; height: 140px"></textarea>
+  </label><br>
   <button type="submit" class="btn btn-success">Submit</button>
 </form>
 <button name="goBack" class="btn btn-info" routerLink="/operas">
   Back
 </button>
-<p *ngIf="!formSubmitted" style="color:green;">Opera Successfully Added</p>
+<p *ngIf="formSubmitted" style="color:green;">Opera Successfully Added</p>
