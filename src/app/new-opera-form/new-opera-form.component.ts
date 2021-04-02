@@ -30,7 +30,8 @@ export class NewOperaFormComponent implements OnInit {
       title: '',
       composer: '',
       year: '',
-      language: ''
+      language: '',
+      summary: ''
     })
   }
 
@@ -52,7 +53,8 @@ export class NewOperaFormComponent implements OnInit {
       name: newValues.title,
       composer: newValues.composer,
       year: newValues.year,
-      language: newValues.language
+      language: newValues.language,
+      summary: newValues.summary
     }
     this.operaItemService.addNewOpera(newOpera);
     this.formSubmitted = true;
