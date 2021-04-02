@@ -1,17 +1,19 @@
-export const OPERA_DATA = [
+export const OPERA_DATA: { id: number, name: string, composer: string, language: string, year: number, summary: string}[] = [
   {
     id: 1,
     name: "Don Giovanni",
     composer: "Wolfgang Amadeus Mozart",
     language: "Italian",
-    year: 1789
+    year: 1789,
+    summary: ""
   },
   {
     id: 2,
     name: "Götterdämmerung",
     composer: "Richard Wagner",
     language: "German",
-    year: 1876
+    year: 1876,
+    summary: ""
   },
   {
     id: 3,
@@ -34,70 +36,80 @@ export const OPERA_DATA = [
     name: "Elektra",
     composer: "Richard Strauss",
     language: "German",
-    year: 1909
+    year: 1909,
+    summary: ""
   },
   {
     id: 6,
     name: "La traviata",
     composer: "Giuseppe Verdi",
     language: "Italian",
-    year: 1853
+    year: 1853,
+    summary: ""
   },
   {
     id: 7,
     name: "Rigoletto",
     composer: "Giuseppe Verdi",
     language: "Italian",
-    year: 1851
+    year: 1851,
+    summary: ""
   },
   {
     id: 8,
     name: "Aida",
     composer: "Giuseppe Verdi",
     language: "Italian",
-    year: 1871
+    year: 1871,
+    summary: ""
   },
   {
     id: 9,
     name: "Otello",
     composer: "Giuseppe Verdi",
     language: "Italian",
-    year: 1887
+    year: 1887,
+    summary: ""
   },
   {
     id: 10,
     name: "Le nozze di Figaro",
     composer: "Wolfgang Amadeus Mozart",
     language: "Italian",
-    year: 1871
+    year: 1871,
+    summary: ""
   },
   {
     id: 11,
     name: "Die Zauberflöte",
     composer: "Wolfgang Amadeus Mozart",
     language: "German",
-    year: 1871
+    year: 1871,
+    summary: ""
   },
   {
     id: 12,
     name: "Tristan und Isolde",
     composer: "Richard Wagner",
     language: "German",
-    year: 1871
+    year: 1871,
+    summary: ""
   },
   {
     id: 13,
     name: "Parsifal",
     composer: "Richard Wagner",
     language: "German",
-    year: 1871
+    year: 1871,
+    summary: ""
   },
   {
     id: 14,
     name: "Lohengrin",
     composer: "Richard Wagner",
     language: "German",
-    year: 1871
+    year: 1871,
+    summary: ""
   },
   {
     id: 15,
@@ -112,55 +124,63 @@ export const OPERA_DATA = [
     name: "Peter Grimes",
     composer: "Banjamin Britten",
     language: "English",
-    year: 1939
+    year: 1939,
+    summary: ""
   },
   {
     id: 17,
     name: "A Midsummer Night's Dream",
     composer: "Benjamin Britten",
     language: "English",
-    year: 1943
+    year: 1943,
+    summary: ""
   },
   {
     id: 18,
     name: "The Rape of Lucretia",
     composer: "Benjamin Britten",
     language: "English",
-    year: 1840
+    year: 1840,
+    summary: ""
   },
   {
     id: 19,
     name: "Der Rosenkavalier",
     composer: "Richard Strauss",
     language: "German",
-    year: 1911
+    year: 1911,
+    summary: ""
   },
   {
     id: 20,
     name: "Ariadne auf Naxos",
     composer: "Richard Strauss",
     language: "German",
-    year: 1915
+    year: 1915,
+    summary: ""
   },
   {
     id: 21,
     name: "War and Peace",
     composer: "Sergei Prokofiev",
     language: "Russian",
-    year: 1933
+    year: 1933,
+    summary: ""
   },
   {
     id: 22,
     name: "The Love for Three Oranges",
     composer: "Sergei Prokofiev",
     language: "Russian",
-    year: 1841
+    year: 1841,
+    summary: ""
   },
   {
     id: 23,
     name: "The Fiery Angel",
     composer: "Sergei Prokofiev",
     language: "Russian",
-    year: 1845
+    year: 1845,
+    summary: ""
   }
 ]
