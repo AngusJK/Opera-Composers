@@ -4,7 +4,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "Don Giovanni",
     composer: "Wolfgang Amadeus Mozart",
     language: "Italian",
-    year: 1789,
+    year: 1787,
     summary: `ACT I
     Spain, mid-18th century. Leporello, servant to the nobleman Don Giovanni, keeps watch outside the Commendatore’s home at night. Suddenly, the Commendatore’s daughter, Donna Anna, rushes out, struggling with the masked Giovanni and followed by her father. The Commendatore challenges Giovanni to a duel and is killed. Giovanni and Leporello escape. Anna asks her fiancé, Don Ottavio, to avenge her father’s death.
     In the morning, Giovanni and Leporello encounter one of Giovanni’s former conquests, Donna Elvira, who is devastated by his betrayal. Leporello tells her she is neither the first nor the last woman to fall victim to Giovanni and shows her his catalogue with the name of every woman Giovanni has seduced.
@@ -92,7 +92,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "Le nozze di Figaro",
     composer: "Wolfgang Amadeus Mozart",
     language: "Italian",
-    year: 1871,
+    year: 1786,
     summary: `ACT I
     A manor house near Seville, the 1930s. In a storeroom that they have been allocated, Figaro and Susanna, servants to the Count and Countess Almaviva, are preparing for their wedding. Figaro is furious when he learns from his bride that the Count has tried to seduce her. He’s determined to have revenge on his master. Dr. Bartolo appears with his former housekeeper, Marcellina, who is equally determined to marry Figaro. She has a contract: Figaro must marry her or repay the money he borrowed from her. When Marcellina runs into Susanna, the two rivals exchange insults. Susanna returns to her room, and the Count’s young page Cherubino rushes in. Finding Susanna alone, he speaks of his love for all the women in the house, particularly the Countess. When the Count appears, again trying to seduce Susanna, Cherubino hides. The Count then conceals himself when Basilio, the music teacher, approaches. Basilio tells Susanna that everyone knows Cherubino has a crush on the Countess. Outraged, the Count steps forward, but he becomes even more enraged when he discovers Cherubino and realizes that the boy has overheard his attempts to seduce Susanna. He chases Cherubino into the great hall, encountering Figaro, who has assembled the entire household to sing the praises of their master. Put on the spot, the Count is forced to bless the marriage of Figaro and Susanna. To spite them and to silence Cherubino, he orders the boy to join the army without delay. Figaro sarcastically sends Cherubino off into battle.
     ACT II
@@ -107,7 +107,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "Die Zauberflöte",
     composer: "Wolfgang Amadeus Mozart",
     language: "German",
-    year: 1871,
+    year: 1791,
     summary: `A mythical land between the sun and the moon. Three ladies in the service of the Queen of the Night save Prince Tamino from a serpent. When they leave to tell the queen, the birdcatcher Papageno appears. He boasts to Tamino that it was he who killed the creature. The ladies return to give Tamino a portrait of the queen’s daughter, Pamina, who they say has been enslaved by the evil Sarastro. Tamino immediately falls in love with the girl’s picture. The queen, appearing in a burst of thunder, tells Tamino about the loss of her daughter and commands him to rescue her. The ladies give a magic flute to Tamino and silver bells to Papageno to ensure their safety on the journey and appoint three spirits to guide them.
     Sarastro’s slave Monostatos pursues Pamina but is frightened away by Papageno. The birdcatcher tells Pamina that Tamino loves her and is on his way to save her. Led by the three spirits to the temple of Sarastro, Tamino learns from a high priest that it is the Queen, not Sarastro, who is evil. Hearing that Pamina is safe, Tamino charms the wild animals with his flute, then rushes off to follow the sound of Papageno’s pipes. Monostatos and his men chase Papageno and Pamina but are left helpless when Papageno plays his magic bells. Sarastro enters in great ceremony. He punishes Monostatos and promises Pamina that he will eventually set her free. Pamina catches a glimpse of Tamino, who is led into the temple with Papageno.
     Sarastro tells the priests that Tamino will undergo initiation rites. Monostatos tries to kiss the sleeping Pamina but is surprised by the appearance of the Queen of the Night. The Queen gives her daughter a dagger and orders her to murder Sarastro.
@@ -121,7 +121,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "Tristan und Isolde",
     composer: "Richard Wagner",
     language: "German",
-    year: 1871,
+    year: 1865,
     summary: ""
   },
   {
@@ -129,7 +129,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "Parsifal",
     composer: "Richard Wagner",
     language: "German",
-    year: 1871,
+    year: 1882,
     summary: ""
   },
   {
@@ -137,7 +137,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "Lohengrin",
     composer: "Richard Wagner",
     language: "German",
-    year: 1871,
+    year: 1850,
     summary: ""
   },
   {
@@ -153,7 +153,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "Peter Grimes",
     composer: "Benjamin Britten",
     language: "English",
-    year: 1939,
+    year: 1945,
     summary: ""
   },
   {
@@ -161,7 +161,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "A Midsummer Night's Dream",
     composer: "Benjamin Britten",
     language: "English",
-    year: 1943,
+    year: 1960,
     summary: ""
   },
   {
@@ -169,7 +169,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     name: "The Rape of Lucretia",
     composer: "Benjamin Britten",
     language: "English",
-    year: 1840,
+    year: 1846,
     summary: ""
   },
   {
