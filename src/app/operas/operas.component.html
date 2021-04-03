@@ -1,22 +1,27 @@
-<div class="opera-title-list">
+<!-- <div class="opera-title-list"> -->
 
-  <div class="opera-list">
-    <h3>Operas by Title</h3>
+  <h3>Operas</h3>
 
+  <!-- <div class="opera-list"> -->
     <!--<app-opera-item *ngFor="let opera of operas"
     [opera]="opera"
     (click)="showComposer()">
     </app-opera-item>
   -->
-    <div >
-    <ul class="list-unstyled">
-      <li *ngFor="let opera of operas" style="cursor: pointer; color: blue;"
-        [routerLink]="['/operas', opera.id]">{{ opera.name }}
-      </li>
-    </ul>
+<button>Sort By Name</button>
+<button>Sort By Year</button>
+    <div>
+      <ul class="list-unstyled">
+        <li *ngFor="let opera of operas"
+          [routerLink]="['/operas', opera.id]">
+          <span style="cursor: pointer; color: blue;">{{ opera.name }}</span>
+          , {{ opera.year }}
+        </li>
+      </ul>
     </div>
-  </div>
+  <!-- </div> -->
+
   <button class="btn btn-primary" name="newOpera" routerLink="/new">
     Add New Opera
   </button>
-</div>
+<!-- </div> -->
