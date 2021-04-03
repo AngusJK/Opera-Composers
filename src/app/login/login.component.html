@@ -1,16 +1,16 @@
 <h4>Login</h4>
 
 <form [formGroup]="loginForm" (ngSubmit)="showUserInfo()">
-  <label>Email:
+  <label>Email:<br>
     <input type="text" formControlName="email" placeholder="Required">
   </label><br>
-  <label>Password:
+  <label>Password:<br>
     <input type="password" formControlName="password" placeholder="Required">
   </label><br>
   <button [disabled]="loginForm.invalid" type="submit" class="btn btn-success">Submit</button>
 </form>
 
-<h3>Form valid: {{ loginForm.valid }}</h3>
+<!-- <h3>Form valid: {{ loginForm.valid }}</h3> -->
 
 <div>
   <h5>Don't have a login? Click <a routerLink="/register">here</a> to register.</h5>
