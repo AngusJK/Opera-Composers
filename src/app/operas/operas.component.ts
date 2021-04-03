@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OperaItemService } from '../opera-item.service';
+import { Pipe, PipeTransform } from '@angular/core';
 
 @Component({
   selector: 'app-operas',
