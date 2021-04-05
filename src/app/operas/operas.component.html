@@ -12,9 +12,9 @@
 <button>Sort By Year</button>
     <div>
       <ul class="list-unstyled">
-        <li *ngFor="let opera of operas"
+        <li *ngFor="let opera of operas; index as i"
           [routerLink]="['/operas', opera.id]">
-          <span style="cursor: pointer; color: blue;">{{ opera.name }}</span>
+          {{ i+1 }}. <span style="cursor: pointer; color: blue;">{{ opera.name }}</span>
           , {{ opera.year }}
         </li>
       </ul>
