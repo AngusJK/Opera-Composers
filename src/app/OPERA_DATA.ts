@@ -44,7 +44,25 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Richard Wagner",
     language: "German",
     year: 1876,
-    summary: `On the rock of Brünnhilde the three Norns, daughters of the Goddess of Fate, weave fate, singing of the holy ash tree, from which a brave god made a spear, broken by a young hero and chopped into logs at the command of Wotan, to be piled around Valhalla, where they will burn the place and bring an end to the gods. As dawn breaks Siegfried emerges from the cave with Brünnhilde, having acquired from her her strength as a Valkyrie. As he prepares to leave, he gives her his ring, a symbol of his deeds, and she gives him Grane, her horse. The first act opens in the Gibichung throne-room, where Hagen urges his half-brother Gunther to marry Brünnhilde, although she is fated to be the wife of Siegfried the Volsung, who could, by trickery, be induced to marry their sister, Gutrune. Siegfried arrives and swears friendship with Hagen. Drugged by Gutrune, he offers her marriage and then agrees, using the Tarncap which will transform him, to bring Gunther the woman he wants, in exchange for Gutrune. They swear friendship and join together ritually as blood brothers. Siegfried and Gunther leave, in search of Brünnhilde, while Hagen guards the house, awaiting their return, with the ring. Waltraute brings Brünnhilde news of Wotan’s despair, in the absence of the ring, but she refuses to part with Siegfried’s pledge of love. Siegfried, in the form of Gunther, leaps through the surrounding flames to claim Brünnhilde as his wife, seizing the ring from her finger. At the hall of the Gibichungs Alberich reminds Hagen of Siegfried’s defeat of Wotan and of the power that the ring will give them. Siegfried returns to claim Gutrune and Hagen calls his men to attend the coming wedding. Gunther and Brünnhilde arrive and the latter, seeing the ring on Siegfried’s finger, realises that there has been trickery. She curses Siegfried and tells Hagen that the hero can be wounded only from the back, a death that can be arranged at a hunting-party. The Rhinemaidens ask Siegfried for the ring and as the hunters rest, Hagen gives Siegfried a drink that revives his memory, piercing his back with his spear and mortally wounding him. Siegfried’s body is brought back, to Gutrune’s distress. Gunther and Hagen fight and the former is killed, but the ring cannot be taken from Siegfried’s body. Brünnhilde orders a pyre to be raised. This is lit, and she rides into it on her horse, Grane, wearing the ring, which will return, on her death, to the Rhinemaidens, who drag Hagen down to the depths of the river. Now flames are seen as Valhalla, the home of the gods, finally burns.`
+    summary: `On the rock of Brünnhilde the three Norns, daughters of the Goddess of Fate, weave fate, singing of the holy ash tree,
+    from which a brave god made a spear, broken by a young hero and chopped into logs at the command of Wotan, to be piled around Valhalla,
+    where they will burn the place and bring an end to the gods. As dawn breaks Siegfried emerges from the cave with Brünnhilde,
+    having acquired from her her strength as a Valkyrie. As he prepares to leave, he gives her his ring, a symbol of his deeds,
+    and she gives him Grane, her horse. The first act opens in the Gibichung throne-room, where Hagen urges his half-brother Gunther to marry Brünnhilde,
+    although she is fated to be the wife of Siegfried the Volsung, who could, by trickery, be induced to marry their sister, Gutrune. Siegfried arrives
+    and swears friendship with Hagen. Drugged by Gutrune, he offers her marriage and then agrees, using the Tarncap which will transform him,
+    to bring Gunther the woman he wants, in exchange for Gutrune. They swear friendship and join together ritually as blood brothers.
+    Siegfried and Gunther leave, in search of Brünnhilde, while Hagen guards the house, awaiting their return, with the ring.
+    Waltraute brings Brünnhilde news of Wotan’s despair, in the absence of the ring, but she refuses to part with Siegfried’s pledge of love.
+    Siegfried, in the form of Gunther, leaps through the surrounding flames to claim Brünnhilde as his wife, seizing the ring from her finger.
+    At the hall of the Gibichungs Alberich reminds Hagen of Siegfried’s defeat of Wotan and of the power that the ring will give them.
+    Siegfried returns to claim Gutrune and Hagen calls his men to attend the coming wedding. Gunther and Brünnhilde arrive and the latter,
+    seeing the ring on Siegfried’s finger, realises that there has been trickery. She curses Siegfried and tells Hagen that the hero can be
+    wounded only from the back, a death that can be arranged at a hunting-party. The Rhinemaidens ask Siegfried for the ring and as the hunters rest,
+    Hagen gives Siegfried a drink that revives his memory, piercing his back with his spear and mortally wounding him. Siegfried’s body is brought back,
+    to Gutrune’s distress. Gunther and Hagen fight and the former is killed, but the ring cannot be taken from Siegfried’s body.
+    Brünnhilde orders a pyre to be raised. This is lit, and she rides into it on her horse, Grane, wearing the ring, which will return, on her death,
+    to the Rhinemaidens, who drag Hagen down to the depths of the river. Now flames are seen as Valhalla, the home of the gods, finally burns.`
   },
   {
     id: 3,
@@ -52,7 +70,13 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giacomo Puccini",
     language: "Italian",
     year: 1896,
-    summary: "La Bohème is one of the three operas - the others are Carmen and Aida - believed to be the most popular ever written. In the case of La Bohème the reason is that it virtually defines the term 'romantic'. The poignant story of Mimì and Rodolfo is told in music of such tender beauty, allied, as always, to Puccini's intuition of what works in the theatre, resulting in an opera that readily appeals to our emotions and senses. 'Che gelida manina - Your tiny hand is frozen...' The moment when Mimì and Rodolfo meet and first touch is one of the very great moments of opera - created by the master hand of Giacomo Puccini, who unerringly trod the fine line between romance and sentimentality. Thomson Smillie outlines the background to the opera, explaining how painstakingly the composer worked to achieve this effect. An absorbing introduction both for those approaching La Bohème for the first time and for those wanting to know a bit more than just the big arias."
+    summary: `La Bohème is one of the three operas - the others are Carmen and Aida - believed to be the most popular ever written.
+    In the case of La Bohème the reason is that it virtually defines the term 'romantic'. The poignant story of Mimì and Rodolfo is told in music
+    of such tender beauty, allied, as always, to Puccini's intuition of what works in the theatre, resulting in an opera that readily appeals to our
+    emotions and senses. 'Che gelida manina - Your tiny hand is frozen...' The moment when Mimì and Rodolfo meet and first touch is one of the very
+    great moments of opera - created by the master hand of Giacomo Puccini, who unerringly trod the fine line between romance and sentimentality.
+    Thomson Smillie outlines the background to the opera, explaining how painstakingly the composer worked to achieve this effect. An absorbing
+    introduction both for those approaching La Bohème for the first time and for those wanting to know a bit more than just the big arias.`
   },
   {
     id: 4,
@@ -60,7 +84,13 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giacomo Puccini",
     language: "Italian",
     year: 1900,
-    summary: "Tosca is Puccini at the peak of his theatrical power. The story of the jealous, impassioned opera singer Floria Tosca and her doomed love for the painter Mario Cavaradossi is played out against backgrounds both historically and geographically overwhelming. It is set in three great and historical locations of Rome during the Napoleonic era. Spectacle, sensuality and cruelty battle for our attention in one of the most truly 'action-packed' works of theatre. Enticing us with just a couple of the 'great tunes' from this deeply affecting opera, David Timson then begins setting the biographical and operatic scene. The enduring popularity of Tosca is quickly understood - its appeal generated largely from exactly the same elements which once caused academics to brand it a 'shabby little shocker'. The master of melody is at his finest, as David Timson illustrates with characteristic enthusiasm."
+    summary: `Tosca is Puccini at the peak of his theatrical power. The story of the jealous, impassioned opera singer Floria Tosca and her doomed
+    love for the painter Mario Cavaradossi is played out against backgrounds both historically and geographically overwhelming. It is set in three
+    great and historical locations of Rome during the Napoleonic era. Spectacle, sensuality and cruelty battle for our attention in one of the most
+    truly 'action-packed' works of theatre. Enticing us with just a couple of the 'great tunes' from this deeply affecting opera, David Timson then
+    begins setting the biographical and operatic scene. The enduring popularity of Tosca is quickly understood - its appeal generated largely from
+    exactly the same elements which once caused academics to brand it a 'shabby little shocker'. The master of melody is at his finest, as David Timson
+    illustrates with characteristic enthusiasm.`
   },
   {
     id: 5,
@@ -77,12 +107,36 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     language: "Italian",
     year: 1853,
     summary: `ACT I
-    Violetta Valéry knows that she will die soon, exhausted by her restless life as a courtesan. At a party she is introduced to Alfredo Germont, who has been fascinated by her for a long time. Rumor has it that he has been enquiring after her health every day. The guests are amused by this seemingly naïve and emotional attitude, and they ask Alfredo to propose a toast. He celebrates true love, and Violetta responds in praise of free love (Ensemble: “Libiamo ne’ lieti calici”). She is touched by his candid manner and honesty. Suddenly she feels faint, and the guests withdraw. Only Alfredo remains behind and declares his love (Duet: “Un dì felice”). There is no place for such feelings in her life, Violetta replies. But she gives him a camellia, asking him to return when the flower has faded. He realizes this means he will see her again the following day. Alone, Violetta is torn by conflicting emotions—she doesn’t want to give up her way of life, but at the same time she feels that Alfredo has awakened her desire to be truly loved (“Ah, fors’è lui… Sempre libera”).
+    Violetta Valéry knows that she will die soon, exhausted by her restless life as a courtesan. At a party she is introduced to Alfredo Germont,
+    who has been fascinated by her for a long time. Rumor has it that he has been enquiring after her health every day. The guests are amused by
+    this seemingly naïve and emotional attitude, and they ask Alfredo to propose a toast. He celebrates true love, and Violetta responds in praise
+    of free love (Ensemble: “Libiamo ne’ lieti calici”). She is touched by his candid manner and honesty. Suddenly she feels faint, and the guests
+    withdraw. Only Alfredo remains behind and declares his love (Duet: “Un dì felice”). There is no place for such feelings in her life, Violetta
+    replies. But she gives him a camellia, asking him to return when the flower has faded. He realizes this means he will see her again the following
+    day. Alone, Violetta is torn by conflicting emotions—she doesn’t want to give up her way of life, but at the same time she feels that Alfredo has
+    awakened her desire to be truly loved (“Ah, fors’è lui… Sempre libera”).
     ACT II
-    Violetta has chosen a life with Alfredo, and they enjoy their love in the country, far from society (“De’ miei bollenti spiriti”). When Alfredo discovers that this is only possible because Violetta has been selling her property, he immediately leaves for Paris to procure money. Violetta has received an invitation to a masked ball, but she no longer cares for such distractions. In Alfredo’s absence, his father, Giorgio Germont, pays her a visit. He demands that she separate from his son, as their relationship threatens his daughter’s impending marriage (Duet: “Pura siccome un angelo”). But over the course of their conversation, Germont comes to realize that Violetta is not after his son’s money—she is a woman who loves unselfishly. He appeals to Violetta’s generosity of spirit and explains that, from a bourgeois point of view, her liaison with Alfredo has no future. Violetta’s resistance dwindles and she finally agrees to leave Alfredo forever. Only after her death shall he learn the truth about why she returned to her old life. She accepts the invitation to the ball and writes a goodbye letter to her lover. Alfredo returns, and while he is reading the letter, his father appears to console him (“Di Provenza”). But all the memories of home and a happy family can’t prevent the furious and jealous Alfredo from seeking revenge for Violetta’s apparent betrayal.
-    At the masked ball, news has spread of Violetta and Alfredo’s separation. There are grotesque dance entertainments, ridiculing the duped lover. Meanwhile, Violetta and her new lover, Baron Douphol, have arrived. Alfredo and the baron battle at the gaming table and Alfredo wins a fortune: lucky at cards, unlucky in love. When everybody has withdrawn, Alfredo confronts Violetta, who claims to be truly in love with the Baron. In his rage Alfredo calls the guests as witnesses and declares that he doesn’t owe Violetta anything. He throws his winnings at her. Giorgio Germont, who has witnessed the scene, rebukes his son for his behavior. The baron challenges his rival to a duel.
+    Violetta has chosen a life with Alfredo, and they enjoy their love in the country, far from society (“De’ miei bollenti spiriti”). When Alfredo
+    discovers that this is only possible because Violetta has been selling her property, he immediately leaves for Paris to procure money. Violetta
+    has received an invitation to a masked ball, but she no longer cares for such distractions. In Alfredo’s absence, his father, Giorgio Germont,
+    pays her a visit. He demands that she separate from his son, as their relationship threatens his daughter’s impending marriage (Duet: “Pura siccome
+      un angelo”). But over the course of their conversation, Germont comes to realize that Violetta is not after his son’s money—she is a woman who
+      loves unselfishly. He appeals to Violetta’s generosity of spirit and explains that, from a bourgeois point of view, her liaison with Alfredo
+      has no future. Violetta’s resistance dwindles and she finally agrees to leave Alfredo forever. Only after her death shall he learn the truth
+      about why she returned to her old life. She accepts the invitation to the ball and writes a goodbye letter to her lover. Alfredo returns, and
+      while he is reading the letter, his father appears to console him (“Di Provenza”). But all the memories of home and a happy family can’t prevent
+      the furious and jealous Alfredo from seeking revenge for Violetta’s apparent betrayal.
+    At the masked ball, news has spread of Violetta and Alfredo’s separation. There are grotesque dance entertainments, ridiculing the duped lover.
+    Meanwhile, Violetta and her new lover, Baron Douphol, have arrived. Alfredo and the baron battle at the gaming table and Alfredo wins a fortune:
+    lucky at cards, unlucky in love. When everybody has withdrawn, Alfredo confronts Violetta, who claims to be truly in love with the Baron. In his
+    rage Alfredo calls the guests as witnesses and declares that he doesn’t owe Violetta anything. He throws his winnings at her. Giorgio Germont, who
+    has witnessed the scene, rebukes his son for his behavior. The baron challenges his rival to a duel.
     ACT III
-    Violetta is dying. Her last remaining friend, Doctor Grenvil, knows that she has only a few more hours to live. Alfredo’s father has written to Violetta, informing her that his son was not injured in the duel. Full of remorse, he has told him about Violetta’s sacrifice. Alfredo wants to rejoin her as soon as possible. Violetta is afraid that he might be too late (“Addio, del passato”). The sound of rampant celebrations are heard from outside while Violetta is in mortal agony. But Alfredo does arrive and the reunion fills Violetta with a final euphoria (Duet: “Parigi, o cara”). Her energy and exuberant joy of life return. All sorrow and suffering seems to have left her—a final illusion, before death claims her.`
+    Violetta is dying. Her last remaining friend, Doctor Grenvil, knows that she has only a few more hours to live. Alfredo’s father has written to
+    Violetta, informing her that his son was not injured in the duel. Full of remorse, he has told him about Violetta’s sacrifice. Alfredo wants to
+    rejoin her as soon as possible. Violetta is afraid that he might be too late (“Addio, del passato”). The sound of rampant celebrations are heard
+    from outside while Violetta is in mortal agony. But Alfredo does arrive and the reunion fills Violetta with a final euphoria (Duet: “Parigi, o
+      cara”). Her energy and exuberant joy of life return. All sorrow and suffering seems to have left her—a final illusion, before death claims her.`
   },
   {
     id: 7,
