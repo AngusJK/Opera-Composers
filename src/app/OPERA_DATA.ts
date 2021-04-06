@@ -250,7 +250,17 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Richard Wagner",
     language: "German",
     year: 1865,
-    summary: ""
+    summary: `Isolde, with her companion Brangäne, sailing on Tristan’s boat to Cornwall, rails at her fate and vows to encompass Tristan’s death, as he takes
+    her from her native country to marry King Mark. Tristan had killed her betrothed, Morold, and now takes her to Cornwall as tribute, while she, haunted by
+    Tristan’s gaze, had earlier cured him through her inherited magic powers of healing. Isolde summons Tristan to her, but he demurs. She now tells Brangäne
+    to bring her casket of magic potions and prepares a poisoned cup for Tristan. Before they land, she calls him to her, and they both drink, but Brangäne has
+    substituted for the death potion a love potion, which has immediate effect. It is now a summer night and Isolde waits for Tristan, against whom the courtier
+    Melot has been plotting. It is only in the night that Tristan and Isolde can realise their love, deluded by the light of day. As the lovers lie together,
+    Brangäne, watching from the tower, cries out her warning, as night passes, but they are unwilling to part. The royal hunting-party bursts in and Tristan
+    is reproached by King Mark. He allows Melot to wound him mortally. In the third act Tristan lies dying, cared for by Kurwenal, who has brought him home to
+    his own castle. Isolde’s ship is seen approaching, and soon she is with him, as he dies in her arms. A second ship appears, bringing Melot and King Mark.
+    Kurwenal defends his master, killing Melot, and being killed in the struggle. King Mark is horrified, since he had come to unite the lovers, having learnt
+    of the love potion from Brangäne. Isolde, who has swooned, wakes, only to die, as she gazes at the body of her dead lover.`
   },
   {
     id: 13,
