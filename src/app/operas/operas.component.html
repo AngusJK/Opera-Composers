@@ -12,9 +12,8 @@
 <button>Sort By Year</button>
     <div>
       <ul class="list-unstyled">
-        <li *ngFor="let opera of operas; index as i"
-          [routerLink]="['/operas', opera.id]">
-          {{ i+1 }}. <span style="cursor: pointer; color: blue;">{{ opera.name }}</span>
+        <li *ngFor="let opera of operas; index as i">
+          {{ i+1 }}. <span [routerLink]="['/operas', opera.id]" style="cursor: pointer; color: blue;">{{ opera.name }}</span>
           , {{ opera.year }}
         </li>
       </ul>
