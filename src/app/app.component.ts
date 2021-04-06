@@ -9,7 +9,6 @@ import { Title } from '@angular/platform-browser';
 })
 export class AppComponent {
   title: string = 'Opera Composers Resource';
-
   constructor(private http: HttpClient, private titleService: Title) {
     titleService.setTitle('Opera Composers')
   }
