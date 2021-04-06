@@ -6,16 +6,37 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     language: "Italian",
     year: 1787,
     summary: `ACT I
-    Spain, mid-18th century. Leporello, servant to the nobleman Don Giovanni, keeps watch outside the Commendatore’s home at night. Suddenly, the Commendatore’s daughter, Donna Anna, rushes out, struggling with the masked Giovanni and followed by her father. The Commendatore challenges Giovanni to a duel and is killed. Giovanni and Leporello escape. Anna asks her fiancé, Don Ottavio, to avenge her father’s death.
-    In the morning, Giovanni and Leporello encounter one of Giovanni’s former conquests, Donna Elvira, who is devastated by his betrayal. Leporello tells her she is neither the first nor the last woman to fall victim to Giovanni and shows her his catalogue with the name of every woman Giovanni has seduced.
-    Peasants celebrate the marriage of Masetto and Zerlina. Giovanni flirts with the bride, telling her she is destined for a better life. But Elvira urges Zerlina to flee her suitor. She also warns Anna, who is still unaware of the identity of her father’s murderer and has asked Giovanni for help in finding the man. Giovanni, for his part, insists that Elvira is mad, and Anna and Ottavio wonder what to believe. As Giovanni leaves, Anna suddenly recognizes his voice as that of the murderer. Devastated but determined, she once more asks Ottavio to avenge her. He wonders how to restore her peace of mind. Giovanni, who has invited the entire wedding party to his home, looks forward to an evening of drinking and dancing.
-    Outside Giovanni’s home, Zerlina asks Masetto to forgive her. Giovanni enters and leads them both inside. Anna, Elvira, and Ottavio appear masked and are invited in by Leporello. In the ballroom, Giovanni dances with Zerlina, then tries to drag her into the adjoining room. When she cries for help, Giovanni blames Leporello. Anna, Elvira, and Ottavio take off their masks and, along with Zerlina and Masetto, accuse Giovanni, who is momentarily surprised but manages to slip away.
+    Spain, mid-18th century. Leporello, servant to the nobleman Don Giovanni, keeps watch outside the Commendatore’s home at night.
+    Suddenly, the Commendatore’s daughter, Donna Anna, rushes out, struggling with the masked Giovanni and followed by her father.
+    The Commendatore challenges Giovanni to a duel and is killed. Giovanni and Leporello escape. Anna asks her fiancé, Don Ottavio,
+    to avenge her father’s death.
+    In the morning, Giovanni and Leporello encounter one of Giovanni’s former conquests, Donna Elvira, who is devastated by his betrayal.
+    Leporello tells her she is neither the first nor the last woman to fall victim to Giovanni and shows her his catalogue with the name
+    of every woman Giovanni has seduced.
+    Peasants celebrate the marriage of Masetto and Zerlina. Giovanni flirts with the bride, telling her she is destined for a better life.
+    But Elvira urges Zerlina to flee her suitor. She also warns Anna, who is still unaware of the identity of her father’s murderer and
+    has asked Giovanni for help in finding the man. Giovanni, for his part, insists that Elvira is mad, and Anna and Ottavio wonder what
+    to believe. As Giovanni leaves, Anna suddenly recognizes his voice as that of the murderer. Devastated but determined, she once more
+    asks Ottavio to avenge her. He wonders how to restore her peace of mind. Giovanni, who has invited the entire wedding party to his home,
+    looks forward to an evening of drinking and dancing.
+    Outside Giovanni’s home, Zerlina asks Masetto to forgive her. Giovanni enters and leads them both inside. Anna, Elvira, and Ottavio appear
+    masked and are invited in by Leporello. In the ballroom, Giovanni dances with Zerlina, then tries to drag her into the adjoining room.
+    When she cries for help, Giovanni blames Leporello. Anna, Elvira, and Ottavio take off their masks and, along with Zerlina and Masetto,
+    accuse Giovanni, who is momentarily surprised but manages to slip away.
     ACT II
-    Having exchanged clothes with Giovanni, Leporello takes Elvira on a nighttime walk, leaving his master free to serenade her maid. When Masetto arrives with a band of peasants to hunt down Giovanni, the disguised Don sends them off in various directions, then beats up Masetto. Zerlina finds her bruised fiancé and comforts him.
-    Later that night, Leporello—still believed by Elvira to be Giovanni—is surprised by Anna, Ottavio, Zerlina, and Masetto, who all denounce the supposed Don. Fearing for his life, Leporello reveals his true identity before making his escape. Ottavio proclaims that he will take revenge on Giovanni and asks the others to look after Anna. Elvira thinks about Giovanni, whom she still loves in spite of everything.
-    In a cemetery, Giovanni and Leporello meet the statue of the Commendatore, who warns Giovanni that by morning he will laugh no longer. Giovanni forces the terrified Leporello to invite the statue to dinner. The statue accepts.
+    Having exchanged clothes with Giovanni, Leporello takes Elvira on a nighttime walk, leaving his master free to serenade her maid.
+    When Masetto arrives with a band of peasants to hunt down Giovanni, the disguised Don sends them off in various directions, then beats
+    up Masetto. Zerlina finds her bruised fiancé and comforts him.
+    Later that night, Leporello—still believed by Elvira to be Giovanni—is surprised by Anna, Ottavio, Zerlina, and Masetto, who all
+    denounce the supposed Don. Fearing for his life, Leporello reveals his true identity before making his escape. Ottavio proclaims that
+    he will take revenge on Giovanni and asks the others to look after Anna. Elvira thinks about Giovanni, whom she still loves in spite
+    of everything.
+    In a cemetery, Giovanni and Leporello meet the statue of the Commendatore, who warns Giovanni that by morning he will laugh no longer.
+    Giovanni forces the terrified Leporello to invite the statue to dinner. The statue accepts.
     Once again, Ottavio asks Anna to marry him, but she replies that she will not until her father’s death has been avenged.
-    Elvira arrives at Giovanni’s home. She makes a last desperate attempt to persuade him to change his life, but he only laughs at her. The figure of the Commendatore enters and asks Giovanni to repent. When he boldly refuses he is consumed by flames. Elvira, Anna, Ottavio, Zerlina, Masetto, and Leporello appear, contemplating their futures and the fate of an immoral man.`
+    Elvira arrives at Giovanni’s home. She makes a last desperate attempt to persuade him to change his life, but he only laughs at her.
+    The figure of the Commendatore enters and asks Giovanni to repent. When he boldly refuses he is consumed by flames. Elvira, Anna,
+    Ottavio, Zerlina, Masetto, and Leporello appear, contemplating their futures and the fate of an immoral man.`
   },
   {
     id: 2,
@@ -23,7 +44,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Richard Wagner",
     language: "German",
     year: 1876,
-    summary: ""
+    summary: `On the rock of Brünnhilde the three Norns, daughters of the Goddess of Fate, weave fate, singing of the holy ash tree, from which a brave god made a spear, broken by a young hero and chopped into logs at the command of Wotan, to be piled around Valhalla, where they will burn the place and bring an end to the gods. As dawn breaks Siegfried emerges from the cave with Brünnhilde, having acquired from her her strength as a Valkyrie. As he prepares to leave, he gives her his ring, a symbol of his deeds, and she gives him Grane, her horse. The first act opens in the Gibichung throne-room, where Hagen urges his half-brother Gunther to marry Brünnhilde, although she is fated to be the wife of Siegfried the Volsung, who could, by trickery, be induced to marry their sister, Gutrune. Siegfried arrives and swears friendship with Hagen. Drugged by Gutrune, he offers her marriage and then agrees, using the Tarncap which will transform him, to bring Gunther the woman he wants, in exchange for Gutrune. They swear friendship and join together ritually as blood brothers. Siegfried and Gunther leave, in search of Brünnhilde, while Hagen guards the house, awaiting their return, with the ring. Waltraute brings Brünnhilde news of Wotan’s despair, in the absence of the ring, but she refuses to part with Siegfried’s pledge of love. Siegfried, in the form of Gunther, leaps through the surrounding flames to claim Brünnhilde as his wife, seizing the ring from her finger. At the hall of the Gibichungs Alberich reminds Hagen of Siegfried’s defeat of Wotan and of the power that the ring will give them. Siegfried returns to claim Gutrune and Hagen calls his men to attend the coming wedding. Gunther and Brünnhilde arrive and the latter, seeing the ring on Siegfried’s finger, realises that there has been trickery. She curses Siegfried and tells Hagen that the hero can be wounded only from the back, a death that can be arranged at a hunting-party. The Rhinemaidens ask Siegfried for the ring and as the hunters rest, Hagen gives Siegfried a drink that revives his memory, piercing his back with his spear and mortally wounding him. Siegfried’s body is brought back, to Gutrune’s distress. Gunther and Hagen fight and the former is killed, but the ring cannot be taken from Siegfried’s body. Brünnhilde orders a pyre to be raised. This is lit, and she rides into it on her horse, Grane, wearing the ring, which will return, on her death, to the Rhinemaidens, who drag Hagen down to the depths of the river. Now flames are seen as Valhalla, the home of the gods, finally burns.`
   },
   {
     id: 3,
@@ -85,7 +106,120 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giuseppe Verdi",
     language: "Italian",
     year: 1887,
-    summary: ""
+    summary: `ACT I
+
+    As a tempest rages in the harbor of Cyprus,
+    citizens await the return of their governor,
+    Otello, a Moorish general in the Venetian
+    army. When his ship is sighted, the Cypriots
+    call on heaven to spare it.
+    Safely in port, Otello proclaims victory
+    over the Turks ("Esultate!") Otello then
+    enters his castle. His ensign, Iago, angered
+    because a rival,Cassio, has been promoted
+    to captain, plots his own advancement by
+    fanning the secret desires of Roderigo, a
+    Venetian dandy, for Otello's wife, Desdemona.
+    Meanwhile, the Cypriots gather around a
+    bonfire. Iago, leading a drinking song
+    (brindisi: "Inaffia l'ugola,") forces the easily
+    intoxicated Cassio to drink a toast to Otello
+    and his bride; the ensign next provokes
+    Roderigo to duel with the reeling Cassio.
+    Otello, awakened by the brawl, storms
+    out to demand an explanation; Iago pretends
+    ignorance. As Desdemona joins her husband,
+    he demotes Cassio, instructing Iago to restore
+    order. Otello and Desdemona, left alone,
+    tenderly recall their courtship ("Gi… nella
+    notte densa ") and kiss three times before
+    re-entering the castle.
+
+    ACT II
+
+    By the castle garden, Iago advises Cassio to
+    seek Desdemona's aid in regaining Otello's
+    favor. Cassio goes off, leaving Iago to
+    describe his view of his creator, a cruel
+    demon who gives him ideas for evil
+    machinations ("Credo.")
+    On Otello's arrival, the ensign makes
+    innuendos about Desdemona's fidelity as
+    they see her in the garden with Emilia (Iago's
+    wife) and Cassio; yet he warns the Moor to
+    beware of jealousy. Women, children and
+    sailors bring flowers to Desdemona, whose
+    beauty softens Otello's suspicions, but when
+    she approaches him about Cassio's
+    reinstatement, he grows irritable. Fearing he
+    is ill, she tries to soothe his brow with a
+    handkerchief, which he throws to the ground.
+    Desdemona, confused, pleads her devotion,
+    while Iago furtively wrenches the
+    handkerchief from Emilia, who has retrieved
+    it.
+    When the women leave, Otello accuses
+    his ensign of destroying his peace of mind.
+    Iago answers the Moor's demand for proof by
+    pretending he has heard Cassio murmur
+    Desdemona's name in his sleep ("Era la
+    notte"); worse he says he saw in Cassio's
+    hand the strawberry-embroidered
+    handkerchief Otello gave her when he first
+    courted her. Seconded by Iago, Otello vows
+    vengeance ("Si, pel ciel.")
+
+    ACT III
+
+    In the armory, Iago tells Otello that more proof
+    is forthcoming and then departs as
+    Desdemona greets her husband ("Dio ti
+    giocondi.") The Moor hints at his suspicions
+    but she fails to understand. When he
+    demands the handkerchief he once gave her,
+    she again pleads for Cassio, driving Otello to
+    call her a courtesan. Tearfully, Desdemona
+    swears her innocence; the Moor sends her
+    away.
+    Spent with rage, Otello wishes heaven
+    had taxed him with any affliction but this ("
+    Dio! mi potevi scagliar,") then hides at the
+    approach of Cassio and Iago. The ensign,
+    flashing the handkerchief, manipulates
+    Cassio's banter about his mistress, Bianca, so
+    that Otello thinks they are joking about
+    Desdemona. Cassio leaves as trumpets
+    announce dignitaries from Venice. Otello
+    swears to kill his wife.
+    In the great hall, the court enters to
+    welcome Lodovico, the ambassador, who
+    presents papers recalling Otello to Venice
+    and naming Cassio governor. Otello loses
+    self-control and hurls Desdemona to the floor.
+    She begs forgiveness for her supposed
+    crime. The courtiers try to console her, but
+    Otello orders them out. As the Moor falls
+    unconscious in a fit, Iago ironically salutes
+    him as the "Lion of Venice."
+
+    ACT IV
+
+    In her room, as Emilia helps her prepare for
+    bed, Desdemona sings a song about a maid,
+    Barbara, who was forsaken by her lover
+    (willow song: "Salce! Salce!") Startled by
+    the wind she bids her companion goodnight,
+    says her prayers ("Ave Maria ") and retires.
+    Otello steals in and tenderly kisses
+    Desdemona. When she awakens, he tells her
+    to prepare for death; though she protests her
+    innocence, he strangles her.
+    Emilia knocks with news that Cassio has
+    slain Roderigo. Hearing Desdemona's death
+    moan, she cries for help, bringing Iago,
+    Lodovico and Cassio. When Emilia tells of
+    Iago's treachery, he stabs his wife and rushes
+    from the room.`
   },
   {
     id: 10,
@@ -192,7 +326,98 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Richard Strauss",
     language: "German",
     year: 1915,
-    summary: ""
+    summary: `PROLOGUE
+
+    Musicians, singers, actors, carpenters, and stage
+    hands are preparing for the first performance of a
+    serious opera which has been specially
+    commissioned by the owner of the house to
+    entertain his guests.
+    There is consternation when the Major-domo
+    announces that, after the opera, there will be a
+    Harlequinade entertainment; moreover the two
+    shows must not overrun their allotted span of
+    time,as the fireworks will begin precisely at nine o
+    clock! Worse is to come, as a little later the
+    Major-domo returns to inform the two troupes that
+    his master has changed his mind: now both
+    entertainments will be played simultaneously, the
+    serious opera being punctuated by intervals of
+    dancing from the comedians.
+    The composer of the serious opera
+    extemporizes an aria which he intends for the
+    tenor and languishes at the idea of his
+    masterpiece being combined with a common
+    dancing show. He tries to explain to Zerbinetta
+    that Ariadne prefers death to the embraces of any
+    man other that her beloved, and proving
+    unsuccessful in this, he indulges in a duet with
+    Zerbinetta in which he comes perilously close to
+    declaring that he loves her. There is some trouble
+    with both tenor and prima donna, after which the
+    composer declares his conviction in the power of
+    music, the most sacred of the arts.
+
+
+
+    THE OPERA
+
+    After an interval, the curtain rises on the opera
+    itself, watched from boxes by the owner of the
+    house and his guests. The setting, which is seen
+    only from its reversed side in the Prologue, is now
+    seen from the front. At one side is a cave in whose
+    entrance Ariadne can be seen asleep, watched by
+    Naiad, Dryad and Echo. These creatures express
+    a certain sympathy with Ariadne's sorrow, to
+    which, however, they have become accustomed
+    with the passage of time.
+    Ariadne speaks as if in a dream. She takes no
+    notice when the Harlequinade quartet and
+    Zerbinetta comment on her distress and try to
+    think of a means to comfort her. Ariadne
+    welcomes the idea of death. Not even a
+    determined effort by Harlequin to cure her of her
+    madness - for he thinks it must surely be that
+    which is wrong with her - can stop her for long.
+    Ariadne continues and, at mention of death's
+    messenger, Hermes, she becomes more urgent.
+
+
+
+    The four comedians make another attempt to
+    cheer up the melancholy Ariadne, but their
+    dancing and singing have not the slightest effect,
+    even when they are joined by the sprightly
+    Zerbinetta. Eventually, Zerbinetta bids them leave
+    her to see what she can do on her own.
+    Zerbinetta appeals to Ariadne, woman to
+    woman. Ariadne is not the first to be abandoned
+    by her lover, and will not be the last. Zerbinetta
+    expounds her own fickle philosophy, and is quite
+    unconcerned when Ariadne disappears inside her
+    cave. Zerbinetta goes into details of her amorous
+    career: she is pursued by the four comedians,
+    each of whom seems amorously inclined.
+    Zerbinetta encourages and eludes them all, until
+    only Scaramuccio, Brighella, and Truffaldino are
+    left. Much to their annoyance, Zerbinetta is
+    immediately heard conversing tenderly with the
+    Harlequin, whom they had thought safely out of
+    the way. They rush to see what they can do about
+    it.
+    No sooner are they gone than the three
+    attendant nymphs return to the stage, full of the
+    sight they have just seen. A youthful god is
+    coming, Bacchus, fresh from the embraces of
+    Circe, but eager for a new adventure. They call to
+    Ariadne, who emerges from the cave in time to
+    hear Bacchus calling for Circe. The nymphs beg
+    him to continue singing, and Ariadne hails him as
+    the longed for messenger of death. In the arms of
+    Bacchus, Ariadne finds consolation and
+    Zerbinetta pops in to comment that all has turned
+    out exactly as she would have expected.`
   },
   {
     id: 21,
