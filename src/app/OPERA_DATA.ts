@@ -98,7 +98,18 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Richard Strauss",
     language: "German",
     year: 1909,
-    summary: ""
+    summary: `The Greek general Agamemnon has returned from the capture of Troy to be murdered by his wife Clytemnestra and her lover Aegisthus,
+    who now reign in his stead. Electra, barely tolerated in the palace, mourns her dead father, dreaming of revenge. Her younger sister Chrysothemis
+    warns her that Clytemnestra plans to have her imprisoned. Clytemnestra now seeks from Electra some release from her torments, suggesting sacrifice.
+    Electra agrees, and outlines the pursuit of her father’s murderers by her brother Orestes. Clytemnestra is relieved when a messenger brings news of
+    the death of Orestes. Electra now tries to persuade Chrysothemis to join her in vengeance, but with no success. She digs in the ground for the axe
+    she needs, to be found by Orestes, returned. He seeks out Clytemnestra and kills her. Electra is left to welcome the returning Aegisthus, dancing
+    round him. He goes into the palace and is struck down. Electra dances wildly in triumph, before falling down dead, leaving Chrysothemis beating at
+    the palace doors and calling the name of her brother.
+
+    Strauss’s opera is an immensely powerful work. Various motifs reappear in the musical texture, which opens with the chanting of the name Agamemnon.
+    Electra herself remains on stage throughout and the opera deals with a series of confrontations, with her sister, with Clytemnestra, with her brother,
+    leading to the climax of the recognition scene, and finally with Aegisthus, before her wild dance and her death in triumph.`
   },
   {
     id: 6,
@@ -144,7 +155,20 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giuseppe Verdi",
     language: "Italian",
     year: 1851,
-    summary: ""
+    summary: `Rigoletto is happy to abet the Duke in his amorous exploits and his bitter tongue earns him the hatred of the courtiers, of Count
+    Ceprano, openly cuckolded by the Duke and of Count Monterone, whose daughter the Duke has dishonoured. Monterone vents his anger at the Duke
+    and curses Rigoletto. Meanwhile the courtiers suspect that Rigoletto himself has a mistress and plot their revenge. The bravo Sparafucile offers
+    his services to Rigoletto, should he require them, and Rigoletto sees a similarity between their functions, before he goes into his house, where
+    he warns his daughter Gilda, recently returned from her convent schooling, to be careful not to leave the house. Gilda, however, has been wooed
+    by one she believes to be a young student, whom she has seen in church. This is, in fact, the Duke. The courtiers take their revenge on Rigoletto
+    by abducting Gilda and taking her to the Duke, assisted by a blindfold Rigoletto, who thinks he is helping the abduction of Countess Ceprano. At
+    court again, he turns on those who have tricked him, and plans his own revenge on the Duke through the agency of Sparafucile. Rigoletto then seeks
+    to disillusion Gilda, who still loves the Duke, by showing her the latter’s depravity. He takes her to witness an assignation with Maddalena,
+    Sparafucile’s sister, having arranged that Sparafucile will murder the Duke. Maddalena, however, pleads for the life of the young man (the Duke
+      disguised as a soldier), and Sparafucile agrees that if any other man should come before midnight, he will kill him in place of the Duke, and
+      give Rigoletto the body in a sack, as agreed. Gilda determines to sacrifice herself for the Duke, and, dressed as a man as she is, enters the
+      room and is murdered. Her body, in a sack, is delivered to Rigoletto outside, but his delight is destroyed when he hears the voice of the Duke
+      inside the house, and opens the sack to reveal the body of his daughter.`
   },
   {
     id: 8,
@@ -152,7 +176,13 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giuseppe Verdi",
     language: "Italian",
     year: 1871,
-    summary: ""
+    summary: `In the Egypt of the Pharoahs there is war with Ethiopia. The Ethiopian King’s daughter, Aida, has been captured and is now a slave
+    in the service of the Pharoah’s daughter, Amneris. Radames loves Aida but is loved by Amneris. He is appointed general of the Egyptian army
+    and in the second scene of the second act returns in triumph, to be rewarded by the unwelcome hand of Amneris in marriage. Aida’s father, Amonasro,
+    has been taken prisoner, his life spared at the intercession of Radames. In the third act he induces his daughter to help him discover the plans of
+    the Egyptian army, which she does in a meeting with Radames, their conversation overheard by Amonasro. Aida and Amonasro take flight but the apparent
+    treachery of Radames is now revealed and he is condemned to death, to the dismay of Amneris. In the final scene he is immured in a stone tomb, where
+    he is joined by Aida. As they die, Amneris, above the tomb, prays for peace for her beloved Radames.`
   },
   {
     id: 9,
@@ -160,120 +190,18 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giuseppe Verdi",
     language: "Italian",
     year: 1887,
-    summary: `ACT I
-
-    As a tempest rages in the harbor of Cyprus,
-    citizens await the return of their governor,
-    Otello, a Moorish general in the Venetian
-    army. When his ship is sighted, the Cypriots
-    call on heaven to spare it.
-    Safely in port, Otello proclaims victory
-    over the Turks ("Esultate!") Otello then
-    enters his castle. His ensign, Iago, angered
-    because a rival,Cassio, has been promoted
-    to captain, plots his own advancement by
-    fanning the secret desires of Roderigo, a
-    Venetian dandy, for Otello's wife, Desdemona.
-    Meanwhile, the Cypriots gather around a
-    bonfire. Iago, leading a drinking song
-    (brindisi: "Inaffia l'ugola,") forces the easily
-    intoxicated Cassio to drink a toast to Otello
-    and his bride; the ensign next provokes
-    Roderigo to duel with the reeling Cassio.
-    Otello, awakened by the brawl, storms
-    out to demand an explanation; Iago pretends
-    ignorance. As Desdemona joins her husband,
-    he demotes Cassio, instructing Iago to restore
-    order. Otello and Desdemona, left alone,
-    tenderly recall their courtship ("Gi… nella
-    notte densa ") and kiss three times before
-    re-entering the castle.
-
-    ACT II
-
-    By the castle garden, Iago advises Cassio to
-    seek Desdemona's aid in regaining Otello's
-    favor. Cassio goes off, leaving Iago to
-    describe his view of his creator, a cruel
-    demon who gives him ideas for evil
-    machinations ("Credo.")
-    On Otello's arrival, the ensign makes
-    innuendos about Desdemona's fidelity as
-    they see her in the garden with Emilia (Iago's
-    wife) and Cassio; yet he warns the Moor to
-    beware of jealousy. Women, children and
-    sailors bring flowers to Desdemona, whose
-    beauty softens Otello's suspicions, but when
-    she approaches him about Cassio's
-    reinstatement, he grows irritable. Fearing he
-    is ill, she tries to soothe his brow with a
-    handkerchief, which he throws to the ground.
-    Desdemona, confused, pleads her devotion,
-    while Iago furtively wrenches the
-    handkerchief from Emilia, who has retrieved
-    it.
-    When the women leave, Otello accuses
-    his ensign of destroying his peace of mind.
-    Iago answers the Moor's demand for proof by
-    pretending he has heard Cassio murmur
-    Desdemona's name in his sleep ("Era la
-    notte"); worse he says he saw in Cassio's
-    hand the strawberry-embroidered
-    handkerchief Otello gave her when he first
-    courted her. Seconded by Iago, Otello vows
-    vengeance ("Si, pel ciel.")
-
-    ACT III
-
-    In the armory, Iago tells Otello that more proof
-    is forthcoming and then departs as
-    Desdemona greets her husband ("Dio ti
-    giocondi.") The Moor hints at his suspicions
-    but she fails to understand. When he
-    demands the handkerchief he once gave her,
-    she again pleads for Cassio, driving Otello to
-    call her a courtesan. Tearfully, Desdemona
-    swears her innocence; the Moor sends her
-    away.
-    Spent with rage, Otello wishes heaven
-    had taxed him with any affliction but this ("
-    Dio! mi potevi scagliar,") then hides at the
-    approach of Cassio and Iago. The ensign,
-    flashing the handkerchief, manipulates
-    Cassio's banter about his mistress, Bianca, so
-    that Otello thinks they are joking about
-    Desdemona. Cassio leaves as trumpets
-    announce dignitaries from Venice. Otello
-    swears to kill his wife.
-    In the great hall, the court enters to
-    welcome Lodovico, the ambassador, who
-    presents papers recalling Otello to Venice
-    and naming Cassio governor. Otello loses
-    self-control and hurls Desdemona to the floor.
-    She begs forgiveness for her supposed
-    crime. The courtiers try to console her, but
-    Otello orders them out. As the Moor falls
-    unconscious in a fit, Iago ironically salutes
-    him as the "Lion of Venice."
-
-    ACT IV
-
-    In her room, as Emilia helps her prepare for
-    bed, Desdemona sings a song about a maid,
-    Barbara, who was forsaken by her lover
-    (willow song: "Salce! Salce!") Startled by
-    the wind she bids her companion goodnight,
-    says her prayers ("Ave Maria ") and retires.
-    Otello steals in and tenderly kisses
-    Desdemona. When she awakens, he tells her
-    to prepare for death; though she protests her
-    innocence, he strangles her.
-    Emilia knocks with news that Cassio has
-    slain Roderigo. Hearing Desdemona's death
-    moan, she cries for help, bringing Iago,
-    Lodovico and Cassio. When Emilia tells of
-    Iago's treachery, he stabs his wife and rushes
-    from the room.`
+    summary: `The crowd awaits the arrival of Othello’s ship from the storm. He reaches the harbour of Cyprus triumphant, victorious in battle and is
+    greeted by the people. Iago suggests to Roderigo that he may soon have Desdemona, now wife of Othello, and, through jealousy, plots against Cassio,
+    whom he makes drunk. A fight breaks out with Roderigo, in which Montano becomes involved. Othello is summoned by the general alarm and dismisses Cassio
+    from his service. Othello and Desdemona sing of their love, as he takes her back again into their chamber. In the second act Iago persuades Cassio to
+    seek reinstatement through Desdemona and kindles and feeds Othello’s jealousy, producing as final proof of her infidelity his report of what Cassio
+    has said in his sleep and the handkerchief that she has dropped and that has been taken from Emilia by Iago. In the third act Desdemona unwittingly
+    fuels Othello’s anger and jealousy by continuing to plead for Cassio. Ambassadors from Venice recall Othello, with Cassio to be left in his place.
+    Othello treats Desdemona cruelly, before the company, and Iago continues to play on his jealousy, the handkerchief now planted in Cassio’s lodging.
+    The last act is set in Desdemona’s bedroom, where she seeks some comfort from Emilia. Woken from sleep by Othello, she again pleads her innocence,
+    as he suffocates her. She can still murmur words to Emilia, when the latter brings news of Cassio’s killing of Roderigo, seeking to excuse Othello.
+    Lodovico gives a report of Roderigo’s dying confession and Emilia tells of the handkerchief, convincing Othello of his tragic mistake. Seizing his
+    sword, he kills himself.`
   },
   {
     id: 10,
@@ -281,14 +209,26 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Wolfgang Amadeus Mozart",
     language: "Italian",
     year: 1786,
-    summary: `ACT I
-    A manor house near Seville, the 1930s. In a storeroom that they have been allocated, Figaro and Susanna, servants to the Count and Countess Almaviva, are preparing for their wedding. Figaro is furious when he learns from his bride that the Count has tried to seduce her. He’s determined to have revenge on his master. Dr. Bartolo appears with his former housekeeper, Marcellina, who is equally determined to marry Figaro. She has a contract: Figaro must marry her or repay the money he borrowed from her. When Marcellina runs into Susanna, the two rivals exchange insults. Susanna returns to her room, and the Count’s young page Cherubino rushes in. Finding Susanna alone, he speaks of his love for all the women in the house, particularly the Countess. When the Count appears, again trying to seduce Susanna, Cherubino hides. The Count then conceals himself when Basilio, the music teacher, approaches. Basilio tells Susanna that everyone knows Cherubino has a crush on the Countess. Outraged, the Count steps forward, but he becomes even more enraged when he discovers Cherubino and realizes that the boy has overheard his attempts to seduce Susanna. He chases Cherubino into the great hall, encountering Figaro, who has assembled the entire household to sing the praises of their master. Put on the spot, the Count is forced to bless the marriage of Figaro and Susanna. To spite them and to silence Cherubino, he orders the boy to join the army without delay. Figaro sarcastically sends Cherubino off into battle.
-    ACT II
-    In her bedroom, Rosina, the Countess, mourns the loss of love in her life. Encouraged by Figaro and Susanna, she agrees to set a trap for her husband: They will send Cherubino, disguised as Susanna, to a rendezvous with the Count that night. At the same time, Figaro will send the Count an anonymous note suggesting that the Countess is having an assignation with another man. Cherubino arrives, and the two women lock the door before dressing him in women’s clothes. When Susanna steps into an adjoining room, the Count knocks and is annoyed to find the door locked. Cherubino hides himself in the dressing room, and the Countess lets her husband in. When there’s a sudden noise from behind the door, the Count is skeptical of his wife’s story that Susanna is in there. Taking his wife with him, he leaves to get tools to force the door. Meanwhile, Susanna, who has reentered the room unseen and observed everything, helps Cherubino escape through the window before taking his place in the dressing room. When the Count and Countess return, both are astonished when Susanna emerges from the room. Figaro arrives to begin the wedding festivities, but the Count questions him about the note he received. Figaro successfully eludes questioning until the gardener, Antonio, bursts in, complaining that someone has jumped from the window. Figaro improvises quickly, feigning a limp and pretending that it was he who jumped. As soon as Antonio leaves, Bartolo, Marcellina, and Basilio appear, putting their case to the Count and holding the contract that obliges Figaro to marry Marcellina. Delighted, the Count declares that Figaro must honor his agreement and that his wedding to Susanna will be postponed.
-    ACT III
-    Later that day in the great hall, Susanna leads on the Count with promises of a rendezvous that night. He is overjoyed but then overhears Susanna conspiring with Figaro. In a rage, he declares that he will have revenge. The Countess, alone, recalls her past happiness. Marcellina, accompanied by a lawyer, Don Curzio, demands that Figaro pay his debt or marry her at once. Figaro replies that he can’t marry without the consent of his parents for whom he’s been searching for years, having been abducted as a baby. When he reveals a birthmark on his arm, Marcellina realizes that he is her long-lost son, fathered by Bartolo. Arriving to see Figaro and Marcellina embracing, Susanna thinks her fiancé has betrayed her, but she is pacified when she learns the truth. The Countess is determined to go through with the conspiracy against her husband, and she and Susanna compose a letter to him confirming the meeting with Susanna that evening in the garden. Cherubino, now dressed as a girl, appears with his sweetheart, Barbarina, the daughter of Antonio. Antonio, who has found Cherubino’s cap, also arrives and reveals the young man. The Count is furious to discover that Cherubino has disobeyed him and is still in the house. Barbarina punctures his anger, explaining that the Count, when he attempted to seduce her, promised her anything she desired. Now, she wants to marry Cherubino, and the Count reluctantly agrees. The household assembles for Figaro and Susanna’s wedding. While dancing with the Count, Susanna hands him the note, sealed with a pin, confirming their tryst that evening.
-    ACT IV
-    At night in the garden, Barbarina despairs that she has lost the pin the Count has asked her to take back to Susanna as a sign that he’s received her letter. When Figaro and Marcellina appear, Barbarina tells them about the planned rendezvous between the Count and Susanna. Thinking that his bride is unfaithful, Figaro curses all women. He hides when Susanna and the Countess arrive, dressed in each other’s clothes. Alone, Susanna sings of love. She knows that Figaro is listening and enjoys making him think that she’s about to betray him with the Count. She then conceals herself—in time to see Cherubino try to seduce the disguised Countess. When the Count arrives looking for Susanna, he chases the boy away. Figaro, by now realizing what is going on, joins in the joke and declares his passion for Susanna in her Countess disguise. The Count returns to discover Figaro with his wife, or so he thinks, and explodes with rage. At that moment, the real Countess steps forward and reveals her identity. Ashamed, the Count asks her pardon. Ultimately, she forgives him, and the entire household celebrates the day’s happy ending.`
+    summary: `Figaro and Susanna are to marry, but the Count has given them rooms near to his own, which will be convenient if he needs access to Susanna.
+    Bartolo wants to take revenge on Figaro, who had helped the Count to marry his ward Rosina, now the Countess. His housekeeper Marcellina has lent money
+    to Figaro, who has promised to marry her, if he cannot repay it. Cherubino tells Susanna that he loves all women, and Susanna hides him, as the Count is
+    heard approaching. His proposals to Susanna are interrupted by the sound of Don Basilio coming near, and he too hides behind the chair, allowing Cherubino
+    to hide himself sitting on it, under a dress thrown over him by Susanna. Basilio now refers to Cherubino’s love for the Countess, and the Count emerges to
+    find out more. Susanna tries to distract them by fainting, but Cherubino is discovered. Figaro brings in a group of peasants, singing praise of the Count,
+    who has surrendered, it is suggested, his droit de seigneur as far as Susanna is concerned, but the Count delays their marriage and packs Cherubino off to
+    the army. Figaro, however, detains Cherubino, since he has plans for him. In the second act the Countess, in her room, is sad, neglected by her husband.
+    She listens to Figaro’s plan to dress Cherubino as a girl and put him in Susanna’s place in an attempt to trap the Count. Cherubino is singing of his love
+    for the Countess, when the Count returns from hunting, eager to pursue matters divulged to him in an anonymous letter accusing the Countess. Cherubino hides
+    in the closet and Susanna, unseen by the others, comes in. The Countess tells her husband that Susanna is in the closet but the door cannot be opened.
+    The Count, suspicious, goes to fetch tools to open the door, taking the Countess with him. This allows Cherubino to jump out of the window and Susanna to
+    take his place. The Count returns and the closet is opened, revealing Susanna. Antonio, the gardener, adds complications when he comes in to complain of
+    someone jumping out of the window, and Figaro now claims that it was him. The act ends with the appearance of Don Basilio, Bartolo and Marcellina, seeking
+    justice. As the wedding is prepared, in the third act, Susanna, at the suggestion of the Countess, agrees to an assignation with the Count. Marcellina’s
+    complaint against Figaro is heard and he claims that he needs parental consent for his marriage to her, if it is to take place. It then transpires that
+    Marcellina is in fact his mother and Bartolo his father. In the fourth act, in the garden at night, Figaro is given cause for jealousy of Susanna, but
+    she is now disguised as the Countess and the Countess as Susanna. The Count unknowingly woos his own wife, while Figaro deliberately provokes his jealousy
+    by his own approaches to the supposed Countess, in fact Susanna. The opera ends with the Count humbled but penitent, reconciled now with his wife, Figaro
+    with Susanna, Cherubino with Barbarina, and Marcellina with Bartolo.`
   },
   {
     id: 11,
