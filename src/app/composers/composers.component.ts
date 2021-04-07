@@ -16,6 +16,13 @@ export class ComposersComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.sortByLastName();
+  }
+
+  sortByLastName() {
+    this.composers.sort(
+      (a: any, b: any) => (a.lastName > b.lastName) ? 1 : -1
+    );
   }
 
 }
