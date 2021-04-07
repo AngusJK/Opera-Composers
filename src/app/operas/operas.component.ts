@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OperaItemService } from '../opera-item.service';
 import { Pipe, PipeTransform } from '@angular/core';
+import { ThrowStmt } from '@angular/compiler';
 
 @Component({
   selector: 'app-operas',
@@ -23,6 +24,14 @@ export class OperasComponent implements OnInit {
 
   ngOnInit () {
     this.operas = this.operaItemService.getOperas();
+    this.sortByName();
+  }
+
+  sortByName() {
+    this.operas.sort(
+      (a: any, b: any) => (a.name > b.name) ? 1 : -1
+    );
+    console.log(this.operas);
   }
 
 }
