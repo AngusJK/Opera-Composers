@@ -7,6 +7,9 @@
   <select formControlName="composer" (change)="pickComposer($event)">
     <option *ngFor="let composer of composers" [ngValue]="composer">{{ composer }}</option>
   </select><br>
+  <label>Librettist:<br>
+    <input type="text" formControlName="librettist" style="width: 400px;">
+  </label><br>
   <label>Year:<br>
     <input type="text" formControlName="year">
   </label><br>
