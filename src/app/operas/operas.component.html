@@ -8,8 +8,8 @@
     (click)="showComposer()">
     </app-opera-item>
   -->
-<button (click)="sortByName()">Sort By Name</button>
-<button (click)="sortByYear()">Sort By Year</button>
+<button class="btn btn-info" (click)="sortByName()">Sort By Name</button>
+<button class="btn btn-info" (click)="sortByYear()">Sort By Year</button>
     <div>
       <ul class="list-unstyled">
         <li *ngFor="let opera of operas; index as i">
