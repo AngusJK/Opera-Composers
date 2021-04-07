@@ -29,6 +29,7 @@ export class NewOperaFormComponent implements OnInit {
     this.newOperaForm = this.fb.group({
       title: '',
       composer: '',
+      librettist: '',
       year: '',
       language: '',
       summary: ''
@@ -52,6 +53,7 @@ export class NewOperaFormComponent implements OnInit {
     let newOpera = {
       name: newValues.title,
       composer: newValues.composer,
+      librettist: newValues.librettist,
       year: newValues.year,
       language: newValues.language,
       summary: newValues.summary
