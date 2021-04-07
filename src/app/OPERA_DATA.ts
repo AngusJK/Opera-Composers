@@ -1,8 +1,9 @@
-export const OPERA_DATA: { id: number, name: string, composer: string, language: string, year: number, summary: string}[] = [
+export const OPERA_DATA: { id: number, name: string, composer: string, librettist: string, language: string, year: number, summary: string}[] = [
   {
     id: 1,
     name: "Don Giovanni",
     composer: "Wolfgang Amadeus Mozart",
+    librettist: "Lorenzo Da Ponte",
     language: "Italian",
     year: 1787,
     summary: `Don Giovanni has had his way with Donna Anna, entering her bedroom, when she mistook him for her betrothed, Don Ottavio. Leporello,
@@ -28,6 +29,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 2,
     name: "Götterdämmerung",
     composer: "Richard Wagner",
+    librettist: "Richard Wagner",
     language: "German",
     year: 1876,
     summary: `On the rock of Brünnhilde the three Norns, daughters of the Goddess of Fate, weave fate, singing of the holy ash tree,
@@ -54,6 +56,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 3,
     name: "La bohème",
     composer: "Giacomo Puccini",
+    librettist: "Giuseppe Giacosa and Luigi Illica",
     language: "Italian",
     year: 1896,
     summary: `In an attic apartment in the Latin Quarter of Paris, a group of young artists are living together in poverty. Their neighbour, the
@@ -68,6 +71,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 4,
     name: "Tosca",
     composer: "Giacomo Puccini",
+    librettist: "Giuseppe Giacosa and Luigi Illica",
     language: "Italian",
     year: 1900,
     summary: `In the church of S Andrea della Valle, the fugitive Angelotti takes refuge in a private chapel. The painter Cavaradossi returns to
@@ -90,6 +94,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 5,
     name: "Elektra",
     composer: "Richard Strauss",
+    librettist: "Hugo von Hofmannsthal",
     language: "German",
     year: 1909,
     summary: `The Greek general Agamemnon has returned from the capture of Troy to be murdered by his wife Clytemnestra and her lover Aegisthus,
@@ -105,6 +110,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 6,
     name: "La traviata",
     composer: "Giuseppe Verdi",
+    librettist: "Francesco Maria Piave",
     language: "Italian",
     year: 1853,
     summary: `Violetta, at a party in her house, is moved to learn that the young Alfredo Germont is in love with her. There are, however, hints already
@@ -121,6 +127,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 7,
     name: "Rigoletto",
     composer: "Giuseppe Verdi",
+    librettist: "Francesco Maria Piave",
     language: "Italian",
     year: 1851,
     summary: `Rigoletto is happy to abet the Duke in his amorous exploits and his bitter tongue earns him the hatred of the courtiers, of Count
@@ -142,6 +149,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 8,
     name: "Aida",
     composer: "Giuseppe Verdi",
+    librettist: "Antonio Ghislanzoni",
     language: "Italian",
     year: 1871,
     summary: `In the Egypt of the Pharoahs there is war with Ethiopia. The Ethiopian King’s daughter, Aida, has been captured and is now a slave
@@ -156,6 +164,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 9,
     name: "Otello",
     composer: "Giuseppe Verdi",
+    librettist: "Arrigo Boito",
     language: "Italian",
     year: 1887,
     summary: `The crowd awaits the arrival of Othello’s ship from the storm. He reaches the harbour of Cyprus triumphant, victorious in battle and is
@@ -175,6 +184,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 10,
     name: "Le nozze di Figaro",
     composer: "Wolfgang Amadeus Mozart",
+    librettist: "Lorenzo Da Ponte",
     language: "Italian",
     year: 1786,
     summary: `Figaro and Susanna are to marry, but the Count has given them rooms near to his own, which will be convenient if he needs access to Susanna.
@@ -202,6 +212,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 11,
     name: "Die Zauberflöte",
     composer: "Wolfgang Amadeus Mozart",
+    librettist: "Emanuel Schikaneder",
     language: "German",
     year: 1791,
     summary: `Tamino tries to escape from a great serpent that is pursuing him. He faints and the Three Ladies dispose of the serpent, vying to stay behind and
@@ -223,6 +234,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 12,
     name: "Tristan und Isolde",
     composer: "Richard Wagner",
+    librettist: "Richard Wagner",
     language: "German",
     year: 1865,
     summary: `Isolde, with her companion Brangäne, sailing on Tristan’s boat to Cornwall, rails at her fate and vows to encompass Tristan’s death, as he takes
@@ -241,6 +253,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 13,
     name: "Parsifal",
     composer: "Richard Wagner",
+    librettist: "Richard Wagner",
     language: "German",
     year: 1882,
     summary: `The prelude uses motifs of the Last Supper, the Holy Grail and Faith, interwoven with a sorrow motif and part of a motif associated with the torment
@@ -269,6 +282,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 14,
     name: "Lohengrin",
     composer: "Richard Wagner",
+    librettist: "Richard Wagner",
     language: "German",
     year: 1850,
     summary: `In 10th-century Antwerp King Henry urges the support of Brabant against Hungary. Friedrich von Telramund accuses Elsa of having killed her brother Gottfried in order to
@@ -285,6 +299,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 15,
     name: "Madama Butterfly",
     composer: "Giacomo Puccini",
+    librettist: "Giuseppe Giacosa and Luigi Illica",
     language: "Italian",
     year: 1904,
     summary: `Goro, the marriage-broker, shows Lieutenant Pinkerton the house where he will live with Cio-Cio-San, after their marriage, and introduces the servants. Pinkerton explains
@@ -298,6 +313,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 16,
     name: "Peter Grimes",
     composer: "Benjamin Britten",
+    librettist: "Montagu Slater",
     language: "English",
     year: 1945,
     summary: `In the prologue, with the inquest on his apprentice, Peter Grimes is warned by the coroner, Swallow, not to take another boy apprentice. Popular prejudice against Grimes
@@ -320,6 +336,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 17,
     name: "A Midsummer Night's Dream",
     composer: "Benjamin Britten",
+    librettist: "Benjamin Britten and Peter Pears",
     language: "English",
     year: 1960,
     summary: `In the wood at twilight the fairies and Puck set the scene for the meeting of Oberon and Tytania, quarrelling over the possession of an Indian boy. When Tytania has gone,
@@ -337,6 +354,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 18,
     name: "The Rape of Lucretia",
     composer: "Benjamin Britten",
+    librettist: "Ronald Duncan",
     language: "English",
     year: 1946,
     summary: `The male and female chorus lament the state of Rome under the Etruscan upstart Tarquinius. At an army camp outside Rome Collatinus, Junius and Tarquinius drink and discuss the
@@ -348,6 +366,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 19,
     name: "Der Rosenkavalier",
     composer: "Richard Strauss",
+    librettist: "Hugo von Hofmannsthal",
     language: "German",
     year: 1911,
     summary: `The first act opens in the bedroom of the Marschallin where the young Octavian is kneeling by the Marschallin’s bed, from which she has not yet risen. Octavian, taking advantage
@@ -368,6 +387,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 20,
     name: "Ariadne auf Naxos",
     composer: "Richard Strauss",
+    librettist: "Hugo von Hofmannsthal",
     language: "German",
     year: 1916,
     summary: `The Prologue written for the second version of Ariadne auf Naxos is set in the house of a rich man, where preparations are being made for an evening entertainment. This is to allow the
@@ -381,6 +401,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 21,
     name: "War and Peace",
     composer: "Sergei Prokofiev",
+    librettist: "Sergei Prokofiev and Mira Mendelson",
     language: "Russian",
     year: 1942,
     summary: `At the estate of Count Rostov, Prince Andrey Bolkonsky, a widower, realises, in the beauty of the evening and the innocent beauty of the Count’s daughter Natasha, that life still promises
@@ -394,6 +415,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 22,
     name: "The Love for Three Oranges",
     composer: "Sergei Prokofiev",
+    librettist: "Sergei Prokofiev",
     language: "Russian",
     year: 1921,
     summary: `The prologue brings an argument between those who favour different forms of entertainment, overruled by what follows. The cure of laughter must be found for the Prince’s hypochondria.
@@ -408,6 +430,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     id: 23,
     name: "The Fiery Angel",
     composer: "Sergei Prokofiev",
+    librettist: "Sergei Prokofiev",
     language: "Russian",
     year: 1955,
     summary: `At an inn the knight Ruprecht hears the cries of Renata, who tells him of the angel that visited her in childhood, her distraction by carnal pleasures and her rediscovery of the angel
