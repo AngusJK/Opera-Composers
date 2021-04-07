@@ -9,7 +9,7 @@
     </app-opera-item>
   -->
 <button (click)="sortByName()">Sort By Name</button>
-<button>Sort By Year</button>
+<button (click)="sortByYear()">Sort By Year</button>
     <div>
       <ul class="list-unstyled">
         <li *ngFor="let opera of operas; index as i">
