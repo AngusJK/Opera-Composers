@@ -33,4 +33,19 @@ export class OperasComponent implements OnInit {
     );
   }
 
+  sortByYear() {
+    this.operas.sort(this.compare);
+  }
+
+  compare(a: any, b: any) {
+    const yearOne = a.year;
+    const yearTwo = b.year;
+    let comparison = 0;
+    if (yearOne > yearTwo) {
+      comparison = 1;
+    } else if (yearOne < yearTwo) {
+      comparison = -1;
+    }
+    return comparison;
+  }
 }
