@@ -31,7 +31,6 @@ export class OperasComponent implements OnInit {
     this.operas.sort(
       (a: any, b: any) => (a.name > b.name) ? 1 : -1
     );
-    console.log(this.operas);
   }
 
 }
