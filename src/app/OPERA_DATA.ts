@@ -5,38 +5,24 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Wolfgang Amadeus Mozart",
     language: "Italian",
     year: 1787,
-    summary: `ACT I
-    Spain, mid-18th century. Leporello, servant to the nobleman Don Giovanni, keeps watch outside the Commendatore’s home at night.
-    Suddenly, the Commendatore’s daughter, Donna Anna, rushes out, struggling with the masked Giovanni and followed by her father.
-    The Commendatore challenges Giovanni to a duel and is killed. Giovanni and Leporello escape. Anna asks her fiancé, Don Ottavio,
-    to avenge her father’s death.
-    In the morning, Giovanni and Leporello encounter one of Giovanni’s former conquests, Donna Elvira, who is devastated by his betrayal.
-    Leporello tells her she is neither the first nor the last woman to fall victim to Giovanni and shows her his catalogue with the name
-    of every woman Giovanni has seduced.
-    Peasants celebrate the marriage of Masetto and Zerlina. Giovanni flirts with the bride, telling her she is destined for a better life.
-    But Elvira urges Zerlina to flee her suitor. She also warns Anna, who is still unaware of the identity of her father’s murderer and
-    has asked Giovanni for help in finding the man. Giovanni, for his part, insists that Elvira is mad, and Anna and Ottavio wonder what
-    to believe. As Giovanni leaves, Anna suddenly recognizes his voice as that of the murderer. Devastated but determined, she once more
-    asks Ottavio to avenge her. He wonders how to restore her peace of mind. Giovanni, who has invited the entire wedding party to his home,
-    looks forward to an evening of drinking and dancing.
-    Outside Giovanni’s home, Zerlina asks Masetto to forgive her. Giovanni enters and leads them both inside. Anna, Elvira, and Ottavio appear
-    masked and are invited in by Leporello. In the ballroom, Giovanni dances with Zerlina, then tries to drag her into the adjoining room.
-    When she cries for help, Giovanni blames Leporello. Anna, Elvira, and Ottavio take off their masks and, along with Zerlina and Masetto,
-    accuse Giovanni, who is momentarily surprised but manages to slip away.
-    ACT II
-    Having exchanged clothes with Giovanni, Leporello takes Elvira on a nighttime walk, leaving his master free to serenade her maid.
-    When Masetto arrives with a band of peasants to hunt down Giovanni, the disguised Don sends them off in various directions, then beats
-    up Masetto. Zerlina finds her bruised fiancé and comforts him.
-    Later that night, Leporello—still believed by Elvira to be Giovanni—is surprised by Anna, Ottavio, Zerlina, and Masetto, who all
-    denounce the supposed Don. Fearing for his life, Leporello reveals his true identity before making his escape. Ottavio proclaims that
-    he will take revenge on Giovanni and asks the others to look after Anna. Elvira thinks about Giovanni, whom she still loves in spite
-    of everything.
-    In a cemetery, Giovanni and Leporello meet the statue of the Commendatore, who warns Giovanni that by morning he will laugh no longer.
-    Giovanni forces the terrified Leporello to invite the statue to dinner. The statue accepts.
-    Once again, Ottavio asks Anna to marry him, but she replies that she will not until her father’s death has been avenged.
-    Elvira arrives at Giovanni’s home. She makes a last desperate attempt to persuade him to change his life, but he only laughs at her.
-    The figure of the Commendatore enters and asks Giovanni to repent. When he boldly refuses he is consumed by flames. Elvira, Anna,
-    Ottavio, Zerlina, Masetto, and Leporello appear, contemplating their futures and the fate of an immoral man.`
+    summary: `Don Giovanni has had his way with Donna Anna, entering her bedroom, when she mistook him for her betrothed, Don Ottavio. Leporello,
+    outside, complains of his life as a servant. Donna Anna pursues Don Giovanni and is joined by her father, who dies as they fight. Don Ottavio
+    joins her in vowing revenge against the unknown assailant, while Don Giovanni and Leporello make their escape. Now they come across another woman,
+    Donna Elvira, an earlier victim of Don Giovanni, who runs off, when they recognise each other, while Leporello reads her a catalogue of his master’s
+    conquests. Master and servant next come across a group of peasants, ready to celebrate the marriage of Zerlina and Masetto. Don Giovanni manages to
+    be left alone with Zerlina, having invited the whole company to his palace nearby, but as they go off together Donna Elvira appears, intervening to
+    warn the girl. Donna Anna and Don Ottavio join them, recognising Don Giovanni by his voice. In Don Giovanni’s garden Masetto reproaches Zerlina,
+    frustrating Don Giovanni’s attempts to lure her away. Donna Anna, Donna Elvira and Don Ottavio appear, masked, and are invited by Leporello to join
+    the celebration. At the ball in the palace Don Giovanni takes Zerlina into another room and when she screams pretends that Leporello is guilty.
+    The three masked visitors reveal themselves and accuse Don Giovanni. Outside Donna Elvira’s house, Leporello is made to impersonate his master
+    to woo her, while Don Giovanni turns his attention to her maid, a cruel deception. Masetto, seeking Don Giovanni, has his helpers sent off in
+    various directions by Don Giovanni, in the guise of Leporello, and when Masetto is alone he sets upon him, leaving him to be consoled by Zerlina.
+    Leporello, taking refuge in the courtyard of the house of Donna Anna, is seized, but pleads for mercy, when they realise who he is. Don Giovanni
+    and Leporello now come together, as night draws on, in a churchyard, where the stone statue on the tomb of the Commendatore is heard to speak.
+    At this Don Giovanni tells Leporello to invite the statue to dinner. The statue accepts and in a final scene is heard slowly approaching the room
+    where Don Giovanni is at dinner, to the terror first of Donna Elvira, who has been urging reform on her betrayer, and then of Leporello. The statue
+    slowly enters and holding fast Don Giovanni’s hand takes him into the fiery pit that now opens before them. There follows a brief epilogue in which
+    the moral of the tale is pointed by those who remain.`
   },
   {
     id: 2,
@@ -70,13 +56,13 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giacomo Puccini",
     language: "Italian",
     year: 1896,
-    summary: `La Bohème is one of the three operas - the others are Carmen and Aida - believed to be the most popular ever written.
-    In the case of La Bohème the reason is that it virtually defines the term 'romantic'. The poignant story of Mimì and Rodolfo is told in music
-    of such tender beauty, allied, as always, to Puccini's intuition of what works in the theatre, resulting in an opera that readily appeals to our
-    emotions and senses. 'Che gelida manina - Your tiny hand is frozen...' The moment when Mimì and Rodolfo meet and first touch is one of the very
-    great moments of opera - created by the master hand of Giacomo Puccini, who unerringly trod the fine line between romance and sentimentality.
-    Thomson Smillie outlines the background to the opera, explaining how painstakingly the composer worked to achieve this effect. An absorbing
-    introduction both for those approaching La Bohème for the first time and for those wanting to know a bit more than just the big arias.`
+    summary: `In an attic apartment in the Latin Quarter of Paris, a group of young artists are living together in poverty. Their neighbour, the
+    little seamstress Mimì, introduces herself, seeking a light for her candle, when Rodolfo is left alone. They fall in love. At the Café Momus
+    Rodolfo presents Mimì to his friends, while the singer Musetta abandons her elderly rich lover Alcindoro in order to join Marcello. Alcindoro
+    is left to settle the bill for all of them. Time has passed. Mimì has been living with Rodolfo, but they quarrel, because of his apparent
+    jealousy. He has planned to leave her, as we learn in a scene set on a cold winter morning by the city gates. Musetta, a contrast in character
+    to the gentle Mimì, later returns to the attic apartment of the four young men, bringing with her the dying Mimì, whom they now try to comfort,
+    but in vain, as she dies before their eyes of the consumption that has racked her.`
   },
   {
     id: 4,
@@ -84,13 +70,21 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giacomo Puccini",
     language: "Italian",
     year: 1900,
-    summary: `Tosca is Puccini at the peak of his theatrical power. The story of the jealous, impassioned opera singer Floria Tosca and her doomed
-    love for the painter Mario Cavaradossi is played out against backgrounds both historically and geographically overwhelming. It is set in three
-    great and historical locations of Rome during the Napoleonic era. Spectacle, sensuality and cruelty battle for our attention in one of the most
-    truly 'action-packed' works of theatre. Enticing us with just a couple of the 'great tunes' from this deeply affecting opera, David Timson then
-    begins setting the biographical and operatic scene. The enduring popularity of Tosca is quickly understood - its appeal generated largely from
-    exactly the same elements which once caused academics to brand it a 'shabby little shocker'. The master of melody is at his finest, as David Timson
-    illustrates with characteristic enthusiasm.`
+    summary: `In the church of S Andrea della Valle, the fugitive Angelotti takes refuge in a private chapel. The painter Cavaradossi returns to
+    the canvas he is painting, a picture of Mary Magdalene, influenced by the features of his beloved Tosca and by a woman he has often seen in the
+    church. The sacristan complains of the trouble Cavaradossi gives him. As he leaves, Angelotti emerges from hiding, explaining that he has escaped
+    from imprisonment in the Castel Sant’Angelo. The voice of Tosca is heard and Angelotti hides again. Tosca is jealous of what she thinks may have
+    been an assignation with another woman but agrees to meet her lover after her evening performance. The church fills for a celebration of a supposed
+    victory over Napoleon, and Baron Scarpia and his agents seek for signs of Angelotti, suspicion falling on Cavaradossi as a possible accomplice.
+    Scarpia succeeds now in arousing further jealousy in Tosca, who has returned, showing her a fan found in the chapel, belonging, in fact, to
+    Angelotti’s sister. Scarpia orders his men to follow Tosca, when she leaves, as a victory Te Deum is sung. In Scarpia’s apartment the sound is
+    heard of an entertainment being given below for Queen Caroline, dancing and a performance by Tosca. Cavaradossi has been arrested and is interrogated
+    and, when Tosca comes in, tortured in the next room, to elicit information from her. She betrays Angelotti’s hiding-place at the well in the garden
+    of Cavaradossi’s villa. The painter is to be shot at dawn, but can be saved if Tosca will give in to Scarpia’s demands on her. She pretends to agree
+    and when he has signed a safe-conduct she kills him. In the third act, at Castel Sant’Angelo, Cavaradossi prepares for death, as dawn draws near.
+    Tosca is brought in and, left alone with him, explains how there is to be a mock-execution, after which they can escape together. In the event
+    Scarpia has his revenge. His orders did not countermand the execution and Cavaradossi is shot. When Tosca realises that he is dead, she leaps from
+    the battlements to her own death, while Scarpia’s men draw threateningly near, having discovered their master’s body.`
   },
   {
     id: 5,
@@ -105,11 +99,7 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     the death of Orestes. Electra now tries to persuade Chrysothemis to join her in vengeance, but with no success. She digs in the ground for the axe
     she needs, to be found by Orestes, returned. He seeks out Clytemnestra and kills her. Electra is left to welcome the returning Aegisthus, dancing
     round him. He goes into the palace and is struck down. Electra dances wildly in triumph, before falling down dead, leaving Chrysothemis beating at
-    the palace doors and calling the name of her brother.
-
-    Strauss’s opera is an immensely powerful work. Various motifs reappear in the musical texture, which opens with the chanting of the name Agamemnon.
-    Electra herself remains on stage throughout and the opera deals with a series of confrontations, with her sister, with Clytemnestra, with her brother,
-    leading to the climax of the recognition scene, and finally with Aegisthus, before her wild dance and her death in triumph.`
+    the palace doors and calling the name of her brother.`
   },
   {
     id: 6,
@@ -117,37 +107,15 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giuseppe Verdi",
     language: "Italian",
     year: 1853,
-    summary: `ACT I
-    Violetta Valéry knows that she will die soon, exhausted by her restless life as a courtesan. At a party she is introduced to Alfredo Germont,
-    who has been fascinated by her for a long time. Rumor has it that he has been enquiring after her health every day. The guests are amused by
-    this seemingly naïve and emotional attitude, and they ask Alfredo to propose a toast. He celebrates true love, and Violetta responds in praise
-    of free love (Ensemble: “Libiamo ne’ lieti calici”). She is touched by his candid manner and honesty. Suddenly she feels faint, and the guests
-    withdraw. Only Alfredo remains behind and declares his love (Duet: “Un dì felice”). There is no place for such feelings in her life, Violetta
-    replies. But she gives him a camellia, asking him to return when the flower has faded. He realizes this means he will see her again the following
-    day. Alone, Violetta is torn by conflicting emotions—she doesn’t want to give up her way of life, but at the same time she feels that Alfredo has
-    awakened her desire to be truly loved (“Ah, fors’è lui… Sempre libera”).
-    ACT II
-    Violetta has chosen a life with Alfredo, and they enjoy their love in the country, far from society (“De’ miei bollenti spiriti”). When Alfredo
-    discovers that this is only possible because Violetta has been selling her property, he immediately leaves for Paris to procure money. Violetta
-    has received an invitation to a masked ball, but she no longer cares for such distractions. In Alfredo’s absence, his father, Giorgio Germont,
-    pays her a visit. He demands that she separate from his son, as their relationship threatens his daughter’s impending marriage (Duet: “Pura siccome
-      un angelo”). But over the course of their conversation, Germont comes to realize that Violetta is not after his son’s money—she is a woman who
-      loves unselfishly. He appeals to Violetta’s generosity of spirit and explains that, from a bourgeois point of view, her liaison with Alfredo
-      has no future. Violetta’s resistance dwindles and she finally agrees to leave Alfredo forever. Only after her death shall he learn the truth
-      about why she returned to her old life. She accepts the invitation to the ball and writes a goodbye letter to her lover. Alfredo returns, and
-      while he is reading the letter, his father appears to console him (“Di Provenza”). But all the memories of home and a happy family can’t prevent
-      the furious and jealous Alfredo from seeking revenge for Violetta’s apparent betrayal.
-    At the masked ball, news has spread of Violetta and Alfredo’s separation. There are grotesque dance entertainments, ridiculing the duped lover.
-    Meanwhile, Violetta and her new lover, Baron Douphol, have arrived. Alfredo and the baron battle at the gaming table and Alfredo wins a fortune:
-    lucky at cards, unlucky in love. When everybody has withdrawn, Alfredo confronts Violetta, who claims to be truly in love with the Baron. In his
-    rage Alfredo calls the guests as witnesses and declares that he doesn’t owe Violetta anything. He throws his winnings at her. Giorgio Germont, who
-    has witnessed the scene, rebukes his son for his behavior. The baron challenges his rival to a duel.
-    ACT III
-    Violetta is dying. Her last remaining friend, Doctor Grenvil, knows that she has only a few more hours to live. Alfredo’s father has written to
-    Violetta, informing her that his son was not injured in the duel. Full of remorse, he has told him about Violetta’s sacrifice. Alfredo wants to
-    rejoin her as soon as possible. Violetta is afraid that he might be too late (“Addio, del passato”). The sound of rampant celebrations are heard
-    from outside while Violetta is in mortal agony. But Alfredo does arrive and the reunion fills Violetta with a final euphoria (Duet: “Parigi, o
-      cara”). Her energy and exuberant joy of life return. All sorrow and suffering seems to have left her—a final illusion, before death claims her.`
+    summary: `Violetta, at a party in her house, is moved to learn that the young Alfredo Germont is in love with her. There are, however, hints already
+    that she is suffering from consumption. They set up house together in the country, but Violetta secretly sells her jewels to meet the expenses they
+    now incur. Alfredo learns of this from Violetta’s maid, Annina, and goes to Paris to raise money. In his absence his father arrives, seeking to
+    persuade Violetta to leave Alfredo, whose behaviour prejudices the marriage chances of his sister, as well as his own prospects. Violetta sacrifices
+    her own feelings and accepts an invitation from her friend Flora Bervoix which will take her back to her old life, now under the protection of Baron
+    Douphol. She leaves a note for Alfredo, telling him of her decision, while old Germont tries to comfort his son, without revealing anything of Violetta’s
+    true motives. Alfredo then bursts into the party at Flora’s house and insults Violetta, whom he finds with her new protector. She falls back, fainting,
+    as the second act closes. In the third act Violetta is at home, near to death. Germont has told his son of the sacrifice she had made, and Alfredo now
+    returns, holding her in his arms as she dies.`
   },
   {
     id: 7,
@@ -165,10 +133,10 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     court again, he turns on those who have tricked him, and plans his own revenge on the Duke through the agency of Sparafucile. Rigoletto then seeks
     to disillusion Gilda, who still loves the Duke, by showing her the latter’s depravity. He takes her to witness an assignation with Maddalena,
     Sparafucile’s sister, having arranged that Sparafucile will murder the Duke. Maddalena, however, pleads for the life of the young man (the Duke
-      disguised as a soldier), and Sparafucile agrees that if any other man should come before midnight, he will kill him in place of the Duke, and
-      give Rigoletto the body in a sack, as agreed. Gilda determines to sacrifice herself for the Duke, and, dressed as a man as she is, enters the
-      room and is murdered. Her body, in a sack, is delivered to Rigoletto outside, but his delight is destroyed when he hears the voice of the Duke
-      inside the house, and opens the sack to reveal the body of his daughter.`
+    disguised as a soldier), and Sparafucile agrees that if any other man should come before midnight, he will kill him in place of the Duke, and
+    give Rigoletto the body in a sack, as agreed. Gilda determines to sacrifice herself for the Duke, and, dressed as a man as she is, enters the
+    room and is murdered. Her body, in a sack, is delivered to Rigoletto outside, but his delight is destroyed when he hears the voice of the Duke
+    inside the house, and opens the sack to reveal the body of his daughter.`
   },
   {
     id: 8,
@@ -236,13 +204,20 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Wolfgang Amadeus Mozart",
     language: "German",
     year: 1791,
-    summary: `A mythical land between the sun and the moon. Three ladies in the service of the Queen of the Night save Prince Tamino from a serpent. When they leave to tell the queen, the birdcatcher Papageno appears. He boasts to Tamino that it was he who killed the creature. The ladies return to give Tamino a portrait of the queen’s daughter, Pamina, who they say has been enslaved by the evil Sarastro. Tamino immediately falls in love with the girl’s picture. The queen, appearing in a burst of thunder, tells Tamino about the loss of her daughter and commands him to rescue her. The ladies give a magic flute to Tamino and silver bells to Papageno to ensure their safety on the journey and appoint three spirits to guide them.
-    Sarastro’s slave Monostatos pursues Pamina but is frightened away by Papageno. The birdcatcher tells Pamina that Tamino loves her and is on his way to save her. Led by the three spirits to the temple of Sarastro, Tamino learns from a high priest that it is the Queen, not Sarastro, who is evil. Hearing that Pamina is safe, Tamino charms the wild animals with his flute, then rushes off to follow the sound of Papageno’s pipes. Monostatos and his men chase Papageno and Pamina but are left helpless when Papageno plays his magic bells. Sarastro enters in great ceremony. He punishes Monostatos and promises Pamina that he will eventually set her free. Pamina catches a glimpse of Tamino, who is led into the temple with Papageno.
-    Sarastro tells the priests that Tamino will undergo initiation rites. Monostatos tries to kiss the sleeping Pamina but is surprised by the appearance of the Queen of the Night. The Queen gives her daughter a dagger and orders her to murder Sarastro.
-    Sarastro finds the desperate Pamina and consoles her, explaining that he is not interested in vengeance. Tamino and Papageno are told by a priest that they must remain silent and are not allowed to eat, a vow that Papageno immediately breaks when he takes a glass of water from a flirtatious old lady. When he asks her name, the old lady vanishes. The three spirits appear to guide Tamino through the rest of his journey and to tell Papageno to be quiet. Tamino remains silent even when Pamina appears. Misunderstanding his vow for coldness, she is heartbroken.
-    The priests inform Tamino that he has only two more trials to complete his initiation. Papageno, who has given up on entering the brotherhood, longs for a wife instead. He eventually settles for the old lady. When he promises to be faithful she turns into a beautiful young Papagena but immediately disappears.
-    Pamina and Tamino are reunited and face the ordeals of water and fire together, protected by the magic flute.
-    Papageno tries to hang himself on a tree but is saved by the three spirits, who remind him that if he uses his magic bells he will find true happiness. When he plays the bells, Papagena appears and the two start making family plans. The Queen of the Night, her three ladies, and Monostatos attack the temple but are defeated and banished. Sarastro blesses Pamina and Tamino as all join in hailing the triumph of courage, virtue, and wisdom.`
+    summary: `Tamino tries to escape from a great serpent that is pursuing him. He faints and the Three Ladies dispose of the serpent, vying to stay behind and
+    watch over him, while the others tell the Queen of what has happened. They leave and the bird-catcher Papageno makes his entrance, claiming, when Tamino comes
+    to his senses, to have killed the serpent. The Ladies return and punish Papageno’s lies by putting a padlock on his mouth. They give Tamino a portrait of a
+    beautiful girl, by which he is immediately fascinated. This is Pamina, abducted, he is told, by a wicked magician. The Queen of the Night makes her terrifying
+    appearance, and tells Tamino that he must rescue Pamina, her daughter. The Ladies unlock Papageno’s mouth and give Tamino a magic flute and Papageno silver bells,
+    protection in their quest. In Sarastro’s palace, Pamina has escaped but been caught again by Monostatos. Papageno and Monostatos confront each other, to their mutual
+    terror. Papageno frees Pamina. Tamino, meanwhile, is confronted by three temples and, rebuffed at two of the temple doors, is questioned by the Speaker, an old priest
+    from the Temple of Wisdom, who assures him that he will be reunited with Pamina. He plays his magic flute, to which animals emerge dancing. Papageno, captured by Monostatos,
+    plays his bells, setting Monostatos and his slaves dancing and allowing their escape. The act ends with the entry of Sarastro and his priests, a prelude to the purification
+    by ordeal of Tamino. The second act brings the ordeals through which Tamino, and to a limited extent Papageno, will pass. The first is of silence. Food is brought by the
+    Three Boys, but Pamina’s entrance has to be greeted in silence, to her distress. The Boys later prevent her killing herself with her mother’s dagger. Tamino passes through
+    the ordeals of fire and water, protected by the magic flute. Papageno has been tantalised by the occasional appearance of an old woman, claiming to be his bride. He is about
+    to kill himself, when relief comes, through the Three Boys, when he makes use of the magic bells to bring a transformed young Papagena to his side. Monostatos and the Three
+    Ladies, with their Queen, are still plotting against Sarastro, but are finally defeated by the power of light, with Tamino and Pamina now together in enlightenment.`
   },
   {
     id: 12,
@@ -268,7 +243,27 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Richard Wagner",
     language: "German",
     year: 1882,
-    summary: ""
+    summary: `The prelude uses motifs of the Last Supper, the Holy Grail and Faith, interwoven with a sorrow motif and part of a motif associated with the torment
+    of sin. Gurnemanz and four esquires, sleeping in a clearing in the woods, waken and make ready for the bath of the sick King Amfortas, balm for whose pain can
+    only come from one person, a blameless fool. Kundry, who now arrives, exhausted, brings balm for the King. The mysterious nature of Kundry is discussed, the
+    good fortune she brings. Gurnemanz explains the entrusting to Titurel of the Grail, the cup used at Christ’s last supper, a vessel that caught his blood, with
+    the spear that caused the wound in his side. The magician Klingsor was refused admission to the temple Titurel built and in revenge created a garden with maidens
+    of seductive beauty, a lure and temptation that has led to the downfall of many knights. Amfortas had been wounded attacking Klingsor’s castle and had lost to
+    him the Holy Spear. Parsifal enters, having shot a swan, a deed he now regrets. He knows little of his past, except that his mother was Herzeleide, Sorrowful Heart.
+    Kundry explains further that his mother had died when he deserted her. Kundry sinks to the ground, her task fulfilled. The scene changes to the temple of the Grail.
+    Titurel, now too weak to officiate, asks Amfortas to display the Grail, but he refuses, since the sight of the holy vessel makes his wounds bleed the more, as a sinner.
+    Eventually he carries out his allotted task and the sacred bread and wine are given to the assembled knights. Parsifal stands fascinated at what he sees, but says and
+    does nothing to alleviate the suffering of Amfortas. In his castle the magician Klingsor sees in his magic glass the fool approaching. He calls up Kundry, an unwilling
+    instrument of his desire to destroy Parsifal, the blameless fool, whom he now sees attacking his knights. The scene is transformed to that of a magic garden, where the
+    flower maidens attempt to charm Parsifal. Kundry, now in more seductive guise, sends them away and tells Parsifal of his mother. As their lips are about to meet, Parsifal
+    comes to his senses and breaks away, feeling the pain of the wound of Amfortas, which he now understands. Kundry begs him to save her from the curse under which she has
+    laboured since she laughed at the crucifixion of Christ. He understands her wiles and her possible salvation, rejecting her advances. Klingsor hurls the Holy Spear at him,
+    but it remains suspended above his head. He seizes it and makes the sign of the cross with it, at which the garden and castle disappear. By the third act the Kingdom of the
+    Grail is in desolation, the knights living on roots and herbs. Gurnemanz finds Kundry, dishevelled and weary, as in the first act, but her face is transformed. A knight approaches,
+    Parsifal, holding the Holy Spear, which he venerates. It is Good Friday and Kundry and Gurnemanz bathe and anoint Parsifal, who baptizes Kundry. The scene changes to that of the
+    temple, where Amfortas will perform the ceremony of the Grail for the last time, to atone for the death of his father Titurel. Parsifal enters the temple, with Gurnemanz and Kundry,
+    and heals the wound of Amfortas with the touch of the Holy Spear, which he presents to the company. It is Parsifal who now must perform the ceremony of the Grail, which he does as a
+    Holy Dove appears above his head and Amfortas and Gurnemanz acknowledge their new king.`
   },
   {
     id: 14,
@@ -276,7 +271,15 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Richard Wagner",
     language: "German",
     year: 1850,
-    summary: ""
+    summary: `In 10th-century Antwerp King Henry urges the support of Brabant against Hungary. Friedrich von Telramund accuses Elsa of having killed her brother Gottfried in order to
+    usurp the dukedom that he now claims for himself. The matter is to be settled by combat, and Elsa now prays for her champion to come forward in answer to the Herald’s challenge.
+    The mysterious knight Lohengrin appears, in a boat drawn by a swan, and, making Elsa promise never to ask his name or origin, defeats Telramund, sparing his life. Ortrud and Telramund
+    now plan their revenge, planting the seeds of doubt in Elsa’s mind. The Herald announces the banishment of Telramund and the assumption of the title Protector by the unnamed knight,
+    who will that day marry Elsa, whose doubts now grow, with Telramund accusing Lohengrin of sorcery. Finally, in the bridal chamber, she asks him the question. Telramund bursts in,
+    and is killed by Lohengrin, who then agrees to answer Elsa’s question in the presence of the people. Before the King’s judgement seat he reveals his name, Lohengrin, his parentage,
+    as a son of Parsifal, and his role as a servant of the Holy Grail, with power that depended on not revealing his name. He tells Elsa that her brother would have come back to her,
+    after a year together, but now he must go, as he came. The swan that draws his boat is revealed, however, as Gottfried, bewitched by Ortrud, and restored to life again as Duke of Brabant.
+    Elsa now falls back dead in her brother’s arms.`
   },
   {
     id: 15,
@@ -284,7 +287,12 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Giacomo Puccini",
     language: "Italian",
     year: 1904,
-    summary: "Madama Butterfly runs the gamut of operatic emotions. The title heroine has a fragility wonderfully expressed in her entry music, deep sexual instincts as shown in the love duet, and immense tragic stature in her last hours. The fate of Madama Butterfly - married to an American sailor and then abandoned - engages our emotions, as it obviously did Puccini's to a degree equalled by few other opera heroines. The oriental setting and the exquisite orchestral and choral writings are treasured bonuses. This audiobook is the perfect introduction to Madama Butterfly. We learn about the background to Puccini's 'Japanese' opera, the social themes of honour and loyalty it involves, and how it progressed from a surprisingly unsuccessful premiere to one of the central and best-loved works of the international operatic repertory. As the story unfolds, we get to know the melodies which make this such a moving and compelling opera."
+    summary: `Goro, the marriage-broker, shows Lieutenant Pinkerton the house where he will live with Cio-Cio-San, after their marriage, and introduces the servants. Pinkerton explains
+    to the consul Sharpless, who has joined him, that he has the house on a long lease, to be terminated at a month’s notice: his coming marriage is to be undertaken on similar terms,
+    since he has no intention of continuing the relationship. Cio-Cio-San and her family arrive and the wedding takes place, interrupted by the Bonze, who curses her as a renegade.
+    The company disperses, leaving Cio-Cio-San and Pinkerton alone together, as evening draws on. Three years later she awaits still the return of Pinkerton, who has never seen the son
+    she has borne him. Attempts are made by Goro to bring about another marriage, to Prince Yamadori. Eventually Pinkerton does return, having prepared Sharpless by a letter. He brings
+    with him his American wife, and Cio-Cio-San kills herself with the knife that her father had used for his own death by imperial command.`
   },
   {
     id: 16,
@@ -292,7 +300,21 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Benjamin Britten",
     language: "English",
     year: 1945,
-    summary: ""
+    summary: `In the prologue, with the inquest on his apprentice, Peter Grimes is warned by the coroner, Swallow, not to take another boy apprentice. Popular prejudice against Grimes
+    is strong, but Ellen Orford shows sympathy. In the first act various inhabitants of the borough appear, while the fishermen and their wives go about their daily tasks. Ned Keene has
+    found Grimes another apprentice, and Hobson agrees to bring him the boy, when Ellen Orford volunteers to look after him. While hostility is general, Balstrode too offers friendly
+    advice to Grimes, suggesting that he leave the town to seek work on a merchant-ship. The second scene is set in The Boar, while a storm rages outside. Mrs Sedley comes to collect the
+    laudanum Keene will bring her, Balstrode jokingly complains of the noise the frightened nieces are making and Boles, drunk, makes advances to them. Grimes comes in from the storm,
+    intending to collect his new apprentice. His position as an outsider increases tension that is dissolved when Auntie calls for a song. Hobson comes in, with Ellen and the boy, and
+    Grimes takes the latter away at once to what he calls home. The second act opens with Sunday morning. The people are in church, while outside Ellen questions the new apprentice about
+    his life. She sees the boy’s jersey is torn and that he has a bruise and pleads with Grimes to keep the day of rest, when he comes to take the boy off to work. In anger Grimes strikes
+    her, the scene overheard by others, who now agree to set off in a party to Grimes’s hut to see what is going on. The men march off together, intent on dealing with Grimes. A passacaglia,
+    at the centre of the opera, leads to a new scene set in Grimes’s hut. As the party of vindictive townspeople approaches, Grimes urges the boy to hurry down the cliff to the boat. The
+    boy slips and falls to his death and Grimes follows down the cliff, leaving the hut empty, to the evident surprise of the men who now enter and find nothing amiss. The third act is set
+    outside the Moot Hall, where a dance is taking place. Various people of the borough are seen, but Grimes is not there. Balstrode has found the jersey that Ellen had made for the boy,
+    washed up on the shore. Mrs Sedley overhears and before long a band of angry men has formed, eager to hunt down Peter Grimes, the outsider. Grimes is now distraught at the disasters
+    of his life and the failure of his ambitions. Balstrode advises him to take his boat out into the bay and sink it. The opera ends as Swallow confirms the coastguards’ report that a boat
+    has been seen out at sea, sinking. The life of the borough resumes.`
   },
   {
     id: 17,
@@ -300,15 +322,27 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Benjamin Britten",
     language: "English",
     year: 1960,
-    summary: ""
+    summary: `In the wood at twilight the fairies and Puck set the scene for the meeting of Oberon and Tytania, quarrelling over the possession of an Indian boy. When Tytania has gone,
+    Oberon tells Puck to pluck the magic herb that will help him succeed. The mortal Athenian lovers then enter, Hermia and Lysander in love and Helena hoping to win the unwilling love of
+    Demetrius, who loves Hermia. Oberon tells Puck to use the magic herb on the eyes of Demetrius, so that he will love Helena. The Rustics appear, preparing their play for the Duke’s wedding.
+    They are followed by a weary Lysander and Hermia. As they rest, Puck puts the magic love-herb on Lysander’s eyes. Waking, he first sees Helena, and now falls in love, following after her.
+    Hermia wakes alone. Oberon approaches Tytania as she sleeps, and squeezes the magic herb on her eyes. In the second act the Rustics rehearse their play, Pyramus and Thisbe. Puck puts an
+    ass’s head on Bottom and his friends scatter in fear, thinking him bewitched. Tytania wakes and falls in love with him, ordering her fairies to entertain him. Oberon endeavours to put
+    matters right between Demetrius and Helena, as they sleep, and squeezes the magic herb onto the eyes of Demetrius, who now falls in love with Helena. Lysander and Demetrius quarrel, but,
+    lulled to sleep, Lysander is given the remedy for his misplaced affection. The third act releases Bottom from his ass’s head and Tytania from her enchantment, while the mortal lovers are
+    properly paired and Oberon has his Indian boy again. At the Duke’s palace Theseus decrees a triple wedding, for himself and the two pairs of lovers, while the wedding entertainment is to be
+    Pyramus and Thisbe. At midnight the mortals disperse, leaving Oberon, Tytania and their fairies to bless the house.`
   },
   {
     id: 18,
     name: "The Rape of Lucretia",
     composer: "Benjamin Britten",
     language: "English",
-    year: 1846,
-    summary: ""
+    year: 1946,
+    summary: `The male and female chorus lament the state of Rome under the Etruscan upstart Tarquinius. At an army camp outside Rome Collatinus, Junius and Tarquinius drink and discuss the
+    trustworthiness of women, and it seems that Lucretia alone, wife of Collatinus, is of perfect virtue. This is seen as a challenge by Tarquinius, who rides to Rome, eager to test Lucretia’s
+    virtue. There he is received as a guest into her house and escorted to his chamber. As Lucretia sleeps, Tarquinius approaches and violates her chastity. The morning dawns brightly, but
+    Lucretia sends now for her husband and kills herself in his presence. The male and female chorus point the Christian moral and message of hope.`
   },
   {
     id: 19,
@@ -316,135 +350,71 @@ export const OPERA_DATA: { id: number, name: string, composer: string, language:
     composer: "Richard Strauss",
     language: "German",
     year: 1911,
-    summary: `ACT I
-    Vienna, during the last years of the Habsburg Empire. The Marschallin, Princess von Werdenberg, has spent the night with her young lover, Octavian, Count Rofrano. He hides when a page brings breakfast, then again when loud voices are heard in the antechamber. The unexpected visitor is the Marschallin’s country cousin, Baron Ochs auf Lerchenau. Bursting into the room, he brags about his amorous conquests and his upcoming marriage to Sophie von Faninal, the young daughter of a wealthy bourgeois. When he asks the Marschallin for advice as to which cavalier could present Sophie with the traditional silver engagement rose, she suggests Octavian—who suddenly, to avoid discovery, emerges from his hiding place disguised as a chambermaid. The baron instantly starts to make advances towards “Mariandel,” who quickly makes her escape as the room fills with the daily crowd of petitioners and salespeople. Among them is a singer, whose aria is cut short by Ochs’s wrangling with a lawyer over Sophie’s dowry. The Baron hires a pair of Italian intriguers, Annina and Valzacchi, to locate the shy servant girl.
-    When the room is cleared, the Marschallin, appalled by the thought of the rude Ochs marrying the innocent young girl, muses on her own waning youth. The returning Octavian is surprised to find her in a distant and melancholy mood. He passionately declares his love but she can only think about the passing of time and tells him that one day he will leave her for a younger woman. Hurt, he rushes off. The Marschallin tries to call him back, but it is too late. She summons her page and sends Octavian the silver rose.
-    ACT II
-    On the morning of her engagement, Sophie excitedly awaits the arrival of the cavalier of the rose. Octavian enters and presents her with the silver rose on behalf of the Baron. Sophie accepts, enraptured, and the two young people feel an instant attraction to each other. When Ochs, whom Sophie has never met, arrives, the girl is shocked by his crude manners. Ochs goes off to discuss the wedding contract with Faninal, and Sophie asks Octavian for help. They end up embracing and are surprised by Annina and Valzacchi, who summon Ochs. The outraged Octavian grazes the Baron’s arm with his rapier and Ochs melodramatically calls for a doctor. In the ensuing confusion, Sophie tells her father that she will not marry the Baron, while Octavian enlists Annina and Valzacchi to participate in an intrigue he is hatching. When Ochs is alone, nursing his wound with a glass of wine, Annina, sent by Octavian, appears with a letter from “Mariandel,” asking Ochs to a rendezvous. Intoxicated with his own charm, the Baron is delighted at the prospect of a tête-à-tête. When he refuses to tip Annina, she determines to get even.
-    ACT III
-    At Octavian’s instigation, Annina and Valzacchi prepare the back room of a dingy inn for Ochs’s rendezvous. Before long, the Baron and “Mariandel” arrive for a private supper. As she coyly leads him on, grotesque apparitions pop out of windows and secret panels, terrifying the Baron. Annina, disguised as a widow, runs in crying that Ochs is the father of her many children. When the police appear, Ochs claims that “Mariandel” is his fiancée. The arriving Faninal, furious at his future son-in-law’s behavior, summons Sophie to set matters straight, then faints and is carried off. At the height of the confusion, the Marschallin enters. Octavian takes off his disguise and the Marschallin explains to Ochs that it was all a farce. He finally admits defeat and leaves, pursued by the innkeeper and various other people who all demand payment of their bills. Left alone with Octavian and Sophie, the Marschallin laments that she must lose her lover so soon, but nevertheless accepts the truth. She gives the bewildered Octavian to Sophie and quietly leaves the room. The young lovers realize that their dream has come true.`
+    summary: `The first act opens in the bedroom of the Marschallin where the young Octavian is kneeling by the Marschallin’s bed, from which she has not yet risen. Octavian, taking advantage
+    of the absence of the Field-Marshal hunting, would like to prolong the moment, but must hide as a servant brings breakfast for the Princess. They hear the sound of someone approaching,
+    and Octavian hides behind a screen. Instead of the Field-Marshal, whose return they had feared, it is Baron Ochs von Lerchenau, the Marschallin’s cousin, who eventually bursts in, while
+    Octavian disguises himself as a maid, but is unable to escape the attentions of the Baron. The Baron seeks the Marschallin’s help in finding a Knight of the Rose to take the traditional
+    token of intended marriage to Sophie von Faninal on his behalf. She proposes her cousin Octavian, Count Rofrano, as an emissary. There follows the Marschallin’s levée, attended by various
+    people who attempt to enlist her support. When they have gone, she recalls her own early marriage and realises that Octavian will soon turn his attention to a younger woman. Octavian goes,
+    and the Marschallin sends after him, then despatching her page to him with the silver rose, which he will know what to do with. The second act opens in the Grand Hall of Herr von Faninal’s
+    house. Sophie awaits the arrival of the Knight of the Rose and is immediately attracted to Octavian, while repelled by the boorish manners of the Baron, who follows. Sophie’s aversion and
+    her feelings for Octavian lead her to refuse marriage with the Baron, who is slightly hurt in an immediate duel with Octavian. The intriguers Valzacchi and Annina, employed by the Baron but
+    annoyed at his meanness, now offer their services to Octavian, who sends Annina with a note to the Baron making an assignation with Mariandel, the identity he had assumed to escape from the
+    Marschallin’s bedroom. In the third act, set in an inn near Vienna, the assignation takes place, with the Baron now confronted by a series of staged apparitions, culminating in the appearance
+    of Annina disguised as his abandoned wife. The Baron summons the police and matters reach a degree of complication that is solved only by the intervention of the Marschallin, who now unselfishly
+    encourages the love of Sophie and Octavian.`
   },
   {
     id: 20,
     name: "Ariadne auf Naxos",
     composer: "Richard Strauss",
     language: "German",
-    year: 1915,
-    summary: `PROLOGUE
-
-    Musicians, singers, actors, carpenters, and stage
-    hands are preparing for the first performance of a
-    serious opera which has been specially
-    commissioned by the owner of the house to
-    entertain his guests.
-    There is consternation when the Major-domo
-    announces that, after the opera, there will be a
-    Harlequinade entertainment; moreover the two
-    shows must not overrun their allotted span of
-    time,as the fireworks will begin precisely at nine o
-    clock! Worse is to come, as a little later the
-    Major-domo returns to inform the two troupes that
-    his master has changed his mind: now both
-    entertainments will be played simultaneously, the
-    serious opera being punctuated by intervals of
-    dancing from the comedians.
-    The composer of the serious opera
-    extemporizes an aria which he intends for the
-    tenor and languishes at the idea of his
-    masterpiece being combined with a common
-    dancing show. He tries to explain to Zerbinetta
-    that Ariadne prefers death to the embraces of any
-    man other that her beloved, and proving
-    unsuccessful in this, he indulges in a duet with
-    Zerbinetta in which he comes perilously close to
-    declaring that he loves her. There is some trouble
-    with both tenor and prima donna, after which the
-    composer declares his conviction in the power of
-    music, the most sacred of the arts.
-
-
-
-    THE OPERA
-
-    After an interval, the curtain rises on the opera
-    itself, watched from boxes by the owner of the
-    house and his guests. The setting, which is seen
-    only from its reversed side in the Prologue, is now
-    seen from the front. At one side is a cave in whose
-    entrance Ariadne can be seen asleep, watched by
-    Naiad, Dryad and Echo. These creatures express
-    a certain sympathy with Ariadne's sorrow, to
-    which, however, they have become accustomed
-    with the passage of time.
-    Ariadne speaks as if in a dream. She takes no
-    notice when the Harlequinade quartet and
-    Zerbinetta comment on her distress and try to
-    think of a means to comfort her. Ariadne
-    welcomes the idea of death. Not even a
-    determined effort by Harlequin to cure her of her
-    madness - for he thinks it must surely be that
-    which is wrong with her - can stop her for long.
-    Ariadne continues and, at mention of death's
-    messenger, Hermes, she becomes more urgent.
-
-
-
-    The four comedians make another attempt to
-    cheer up the melancholy Ariadne, but their
-    dancing and singing have not the slightest effect,
-    even when they are joined by the sprightly
-    Zerbinetta. Eventually, Zerbinetta bids them leave
-    her to see what she can do on her own.
-    Zerbinetta appeals to Ariadne, woman to
-    woman. Ariadne is not the first to be abandoned
-    by her lover, and will not be the last. Zerbinetta
-    expounds her own fickle philosophy, and is quite
-    unconcerned when Ariadne disappears inside her
-    cave. Zerbinetta goes into details of her amorous
-    career: she is pursued by the four comedians,
-    each of whom seems amorously inclined.
-    Zerbinetta encourages and eludes them all, until
-    only Scaramuccio, Brighella, and Truffaldino are
-    left. Much to their annoyance, Zerbinetta is
-    immediately heard conversing tenderly with the
-    Harlequin, whom they had thought safely out of
-    the way. They rush to see what they can do about
-    it.
-    No sooner are they gone than the three
-    attendant nymphs return to the stage, full of the
-    sight they have just seen. A youthful god is
-    coming, Bacchus, fresh from the embraces of
-    Circe, but eager for a new adventure. They call to
-    Ariadne, who emerges from the cave in time to
-    hear Bacchus calling for Circe. The nymphs beg
-    him to continue singing, and Ariadne hails him as
-    the longed for messenger of death. In the arms of
-    Bacchus, Ariadne finds consolation and
-    Zerbinetta pops in to comment that all has turned
-    out exactly as she would have expected.`
+    year: 1916,
+    summary: `The Prologue written for the second version of Ariadne auf Naxos is set in the house of a rich man, where preparations are being made for an evening entertainment. This is to allow the
+    performance of a serious opera, a comic commedia dell’arte piece and fireworks. To save time, the patron has ordered the tragedy and comedy to be performed simultaneously. This distresses the
+    composer, but his teacher, the music-master, advises compromise. The opera starts, as it should, with Ariadne lamenting her fate, to the boredom of listening nymphs. The comedians, however, now
+    intervene to console her, ignored by Ariadne, even when Zerbinetta interrupts. The comedians seek Zerbinetta’s favour. The approach of the god Bacchus (Dionysus) arouses Ariadne and the two sing
+    ecstatically, against a starry heaven. Zerbinetta has her own comment to make on all this in the first version, followed then by the bourgeois gentleman, Monsieur Jourdain himself. In the second
+    version, now usually followed, Bacchus and Ariadne have the last word.`
   },
   {
     id: 21,
     name: "War and Peace",
     composer: "Sergei Prokofiev",
     language: "Russian",
-    year: 1933,
-    summary: ""
+    year: 1942,
+    summary: `At the estate of Count Rostov, Prince Andrey Bolkonsky, a widower, realises, in the beauty of the evening and the innocent beauty of the Count’s daughter Natasha, that life still promises
+    happiness. Natasha meets Prince Andrey at a ball in St Petersburg, to his happiness, but his father insists that he spend a year abroad, and the behaviour of Andrey’s father is intimidating. Natasha,
+    meanwhile, is the object of affection of Prince Anatol, brother-in-law of Pierre Bezhukov, who plans to elope with her. The plot is divulged and foiled at the last minute, allowing Pierre to tell
+    Natasha of his own feelings for her, were he free. The second part of the opera concerns war rather than peace, with the battle of Borodino. Pierre is an observer, but Andrey is wounded. Moscow is
+    destroyed, in pursuit of the scorched earth policy that defeated Napoleon. Andrey, evacuated with the other wounded, dies in the presence of Natasha, who has found him again. Pierre has been taken
+    prisoner by the French, but is rescued, as the opera draws to its patriotic close.`
   },
   {
     id: 22,
     name: "The Love for Three Oranges",
     composer: "Sergei Prokofiev",
     language: "Russian",
-    year: 1841,
-    summary: ""
+    year: 1921,
+    summary: `The prologue brings an argument between those who favour different forms of entertainment, overruled by what follows. The cure of laughter must be found for the Prince’s hypochondria.
+    Leander, an enemy of the King, plots with Clarice, his possible successor, to make the Prince’s condition worse. Truffaldino tries to amuse him in various ways, but only succeeds by accident when
+    Fata Morgana falls over, exposing herself. She curses him with the love for three oranges that he must now pursue. With the help of Celio and Farfarello the Prince finds the three oranges in the
+    kitchen-garden of the witch Creonta. The oranges must only be opened in the presence of water. The first two reveal princesses, who emerge only to die of thirst. The third, Ninetta, comes out when
+    the Prince himself opens the last orange, saved from death by the intervention of those watching. Ninetta demands proper clothes, before accompanying the Prince, and in his absence is changed by
+    Fata Morgana into a rat, her place taken by the slave-girl Smeraldina. A happy ending is secured when Celio changes Ninetta back into her original form, with Smeraldina, Fata Morgana, Clarice and
+    Leander disappearing through a trap-door.`
   },
   {
     id: 23,
     name: "The Fiery Angel",
     composer: "Sergei Prokofiev",
     language: "Russian",
-    year: 1845,
-    summary: ""
+    year: 1955,
+    summary: `At an inn the knight Ruprecht hears the cries of Renata, who tells him of the angel that visited her in childhood, her distraction by carnal pleasures and her rediscovery of the angel
+    in the guise of Count Heinrich, who abandoned her. The hostess at the inn tells Ruprecht that Renata is wicked and a witch. Failing to seduce Renata, Ruprecht accompanies her in her search for
+    Heinrich, for which she uses what magic resources she can. Ruprecht seeks the help of the philosopher and magician Agrippa von Nettelsheim, to no avail. Finding Heinrich, Renata at first renounces
+    him, herself again rejected, and asks Ruprecht to kill him. Heinrich appears in the radiant form of the angel, and Renata now changes her mind. Ruprecht is wounded in a duel with Count Heinrich,
+    but now Renata tells him she will enter a convent, trying to kill herself, when he declares again his love for her. They are observed by Faust and Mephistopheles, who promise to show Ruprecht the
+    town. In the convent Renata is accused of heresy and in a final scene of pandemonium, with the nuns apparently possessed, she is condemned as a heretic.`
   }
 ]
