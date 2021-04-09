@@ -8,9 +8,10 @@
     <h6>Birthplace: {{ composer.birthPlace }}</h6>
     <h6>Operas: </h6>
     <ul class="list-unstyled" *ngFor="let opera of composer.operas">
-      <li style="cursor: pointer; color:blue;"
-      [routerLink]="['/operas', opera.id]"
-      >{{ opera.name }}</li>
+      <li>
+        <span style="cursor: pointer; color:blue;"
+        [routerLink]="['/operas', opera.id]">{{ opera.name }}</span>
+      </li>
     </ul>
     <button name="goBack" routerLink="/composers" class="btn btn-info">Back</button>
   </div>
