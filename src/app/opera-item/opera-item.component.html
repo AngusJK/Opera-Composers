@@ -1,12 +1,14 @@
-<div>
-  <h2 id="title">{{opera.name}}</h2>
-  <div id="info">
-    <span>Composer: {{opera.composer}}</span> |
-    <span>Librettist: {{opera.librettist}}</span> |
-    <span>Original language: {{opera.language}}</span> |
-    <span>Year of premiere: {{opera.year}}</span><br>
+<div id="page">
+  <div>
+    <h2 id="title">{{opera.name}}</h2>
+    <div id="info">
+      <span>Composer: {{opera.composer}}</span> |
+      <span>Librettist: {{opera.librettist}}</span> |
+      <span>Original language: {{opera.language}}</span> |
+      <span>Year of premiere: {{opera.year}}</span><br>
+    </div>
+    <p id="summary">{{opera.summary}}</p>
   </div>
-  <p id="summary">{{opera.summary}}</p>
+  <button name="allOperas" routerLink="/operas" class="btn btn-info" >All operas</button>
+  <button name="goBack" (click)="back()" class="btn btn-primary">Back</button>
 </div>
-<button name="allOperas" routerLink="/operas" class="btn btn-info" >All operas</button>
-<button name="goBack" (click)="back()" class="btn btn-primary">Back</button>
