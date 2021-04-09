@@ -5,3 +5,17 @@
 button {
   margin: 5px;
 }
+
+#title {
+  padding-top: 8px;
+  color: rgb(99, 172, 4);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+  color: darkgrey;
+}
+
+#summary {
+  padding-top: 12px;
+}
