@@ -3,10 +3,12 @@
     <img src="{{ composer.image }}" width="300" style="margin:10px" alt="composer photo">
   </div>
   <div class="col-sm-9">
-    <h4>{{ composer.firstName }} {{ composer.lastName }}</h4>
-    <h6>{{ composer.birthYear }}-{{ composer.deathYear }}</h6>
-    <h6>Birthplace: {{ composer.birthPlace }}</h6>
-    <h6>Operas: </h6>
+    <h4 id="name">{{ composer.firstName }} {{ composer.lastName }}</h4>
+    <div id="info">
+      <span>{{ composer.birthYear }}-{{ composer.deathYear }}</span> |
+      <span>Birthplace: {{ composer.birthPlace }}</span><br>
+    </div>
+
     <ul class="list-unstyled" *ngFor="let opera of composer.operas">
       <li>
         <span style="cursor: pointer; color:blue;"
