@@ -21,5 +21,10 @@ span {
 }
 
 #page {
-  margin: 30px;
+  color: white;
+  background-color: black;
+}
+
+#content {
+  padding: 30px;
 }
