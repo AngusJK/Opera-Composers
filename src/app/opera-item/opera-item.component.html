@@ -1,5 +1,5 @@
 <div id="page">
-  <div>
+  <div id="content">
     <h2 id="title">{{opera.name}}</h2>
     <div id="info">
       <span>Composer: {{opera.composer}}</span> |
@@ -8,7 +8,7 @@
       <span>Year of premiere: {{opera.year}}</span><br>
     </div>
     <p id="summary">{{opera.summary}}</p>
+    <button name="allOperas" routerLink="/operas" class="btn btn-info" >All operas</button>
+    <button name="goBack" (click)="back()" class="btn btn-primary">Back</button>
   </div>
-  <button name="allOperas" routerLink="/operas" class="btn btn-info" >All operas</button>
-  <button name="goBack" (click)="back()" class="btn btn-primary">Back</button>
 </div>
