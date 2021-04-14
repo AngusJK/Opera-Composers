@@ -1,7 +1,16 @@
 #name {
   color: rgb(99, 172, 4);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 span {
   color: darkgrey;
+}
+
+#card {
+  background-color: black;
+}
+
+#content {
+  padding: 30px;
 }
