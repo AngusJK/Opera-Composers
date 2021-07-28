@@ -13,8 +13,9 @@
 
         <ul class="list-unstyled" *ngFor="let opera of composer.operas">
           <li>
-            <span style="cursor: pointer; color:blue;"
-            [routerLink]="['/operas', opera.id]">{{ opera.name }}</span>
+            <div class="opera-list-item" [routerLink]="['/operas', opera.id]">
+            <span>{{ opera.name }}</span>
+          </div>
           </li>
         </ul>
         <button name="goBack" routerLink="/composers" class="btn btn-info">Back</button>
