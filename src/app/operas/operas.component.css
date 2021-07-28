@@ -9,3 +9,21 @@
 button {
   margin: 3px;
 }
+
+.opera-list-item {
+  background-color: burlywood;
+  border: 1px solid black;
+  width: 350px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.opera-list-item:hover {
+  background-color: chocolate;
+  color: white;
+}
+ /*
+.opera-list-span {
+  cursor: pointer; color: blue;
+}
+*/
