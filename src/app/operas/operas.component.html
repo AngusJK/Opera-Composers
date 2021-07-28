@@ -12,7 +12,7 @@
 <button class="btn btn-info" (click)="sortByYear()">Sort By Year</button>
     <div>
       <ul class="list-unstyled">
-        <li *ngFor="let opera of operas; index as i">
+        <li *ngFor="let opera of operas">
           <div class="opera-list-item" [routerLink]="['/operas', opera.id]">
             <span class="opera-list-span">{{ opera.name }}</span> ({{ opera.year }})
           </div>
