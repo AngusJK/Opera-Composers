@@ -3,8 +3,8 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-span {
-  color: darkgrey;
+#info {
+  color: white;
 }
 
 #card {
@@ -13,4 +13,18 @@ span {
 
 #content {
   padding: 30px;
+}
+
+.opera-list-item {
+  color: rgb(145, 63, 4);
+  background-color: burlywood;
+  width: 350px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.opera-list-item:hover {
+  background-color: chocolate;
+  color: white;
+  width: 355px;
 }
