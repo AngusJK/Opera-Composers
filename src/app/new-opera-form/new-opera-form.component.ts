@@ -58,6 +58,7 @@ export class NewOperaFormComponent implements OnInit {
       language: newValues.language,
       summary: newValues.summary
     }
+    console.log(newOpera);
     this.operaItemService.addNewOpera(newOpera);
     this.formSubmitted = true;
   }
