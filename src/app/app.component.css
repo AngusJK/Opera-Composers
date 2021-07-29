@@ -1,34 +1,33 @@
-
-/* .headline {
-  color: brown;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  border-bottom: solid brown 4px;
-  background-color: rgb(219, 217, 213);
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  border-bottom: solid brown 4px;
+#title {
+  font-family: cursive;
+  color: blueviolet;
+  font-size: 60px;
 }
 
-li {
-  float: left;
+.nav-item {
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 5px;
 }
 
-li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+.active {
+  background-color: cadetblue;
+}
+
+.nav-item:hover {
+  background-color: khaki;
+}
+
+.nav-item:active {
+  background-color: lawngreen;
+}
+
+.nav-link {
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
-
-li a:hover {
-  background-color: #555;
-} */
 
