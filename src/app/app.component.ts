@@ -8,9 +8,15 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Opera Composers Resource';
+  title: string = 'Opera Composers';
   constructor(private http: HttpClient, private titleService: Title) {
     titleService.setTitle('Opera Composers')
+  }
+
+  activeState = "";
+
+  changeActive() {
+    this.activeState = "blue";
   }
 
 }
