@@ -18,7 +18,8 @@ h1 {
 }
 
 .nav-item {
-  border: 1px solid black;
+  color: rgb(126, 5, 163);
+  border: 1px solid rgb(126, 5, 163);
   margin: 2px;
   border-radius: 5px;
 }
@@ -28,7 +29,8 @@ h1 {
 }
 
 .nav-item:hover {
-  background-color: khaki;
+  background-color: rgb(184, 161, 191);
+  color: white;
 }
 
 .nav-item:active {
