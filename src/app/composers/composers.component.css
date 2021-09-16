@@ -8,6 +8,14 @@ div {
   margin-bottom: 10em;
 } */
 
+.composer-content {
+  background-color: black;
+  height: 100%;
+}
+
+.instruction {
+  color: white;
+}
 
 .composer-list-item {
   color: rgb(145, 63, 4);
