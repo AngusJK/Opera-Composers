@@ -1,5 +1,7 @@
 .header {
   text-align: center;
+  background-color: rgb(153, 210, 240);
+  border: 2px solid black;
 }
 
 h1 {
@@ -15,6 +17,7 @@ h1 {
 .navbar {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .nav-item {
